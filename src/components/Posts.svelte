@@ -1,4 +1,8 @@
 <script>
+  import readingTime from "../utils/readingTime.js";
+  import randomEmoji from "../utils/randomEmoji.js";
+  import formatIsoTime from "../utils/fromatIsoTime.js";
+
   export let post;
 </script>
 
@@ -54,12 +58,16 @@
     <div class="Post-head">
       <div class="Post-title">
         <h2>
-          <a rel="prefectch" href="blog/{post.slug}">{post.title}</a>
+          <a rel="prefectch" href="blog/{post.slug}">
+            {randomEmoji()} {post.title}
+          </a>
         </h2>
         <p>
-          <time datatime={post.createdAt}>{post.createdAt}</time>
+          <time datatime={post.createdAt}>
+            📆 {formatIsoTime(post.createdAt)}
+          </time>
           <span class="dot">.</span>
-          <span>5 min</span>
+          <span>{readingTime(post.html)}</span>
         </p>
       </div>
       <div class="Post-tags" />

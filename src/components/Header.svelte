@@ -1,3 +1,7 @@
+<script>
+  import analyticsTracking from "../utils/analytics.js";
+</script>
+
 <style>
   .Header {
     background-color: #24292e;
@@ -73,12 +77,17 @@
             <a
               href="https://github.com/Jeanpigi"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+              on:click={analyticsTracking('github')}>
               <img src="github-icon.webp" alt="Github" />
             </a>
           </li>
           <li>
-            <a href="/" target="_blank" rel="noreferrer">
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              on:click={analyticsTracking('instagram')}>
               <img src="instagram-icon.webp" alt="Instagram" />
             </a>
           </li>
@@ -86,7 +95,8 @@
             <a
               href="https://www.facebook.com/JePiGi/"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+              on:click={analyticsTracking('facebook')}>
               <img src="facebook-icon.png" alt="Facebook" />
             </a>
           </li>

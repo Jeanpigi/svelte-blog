@@ -5,6 +5,7 @@
   "author": "Jean Pierre <stick-master666@hotmail.com>",
   "license": "MIT",
   "scripts": {
+    "data": "node src/bin/index.js",
     "dev": "sapper dev",
     "build": "sapper build",
     "export": "sapper export",
@@ -15,6 +16,8 @@
   },
   "dependencies": {
     "compression": "^1.7.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
     "polka": "next",
     "sirv": "^1.0.0"
   },
