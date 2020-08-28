@@ -26,7 +26,7 @@
   <title>JbearP Blog</title>
   <meta name="description" content="Blog de JbearP" />
 
-  <meta name="twitter:card" content="summary_larga_image" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@Jeanpigi" />
   <meta name="twitter:creator" content="@Jeanpigi" />
   <meta name="twitter:title" content="Jean Pierre Giovanni" />
