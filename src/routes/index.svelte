@@ -24,6 +24,22 @@
 
 <svelte:head>
   <title>JbearP Blog</title>
+  <meta name="description" content="Blog de JbearP" />
+
+  <meta name="twitter:card" content="summary_larga_image" />
+  <meta name="twitter:site" content="@Jeanpigi" />
+  <meta name="twitter:creator" content="@Jeanpigi" />
+  <meta name="twitter:title" content="Jean Pierre Giovanni" />
+  <meta name="twitter:description" content="Blog de JbearP" />
+
+  <meta name="og:title" content="Jean Pierre Giovanni" />
+  <meta name="og:description" content="Blog de JbearP" />
+  <meta name="og:url" content="https://blog.jbearp.com" />
+  <meta name="og:site_name" content="Jean Pierre Giovanni" />
+  <meta name="og:locate" content="es_ES" />
+  <meta name="og:type" content="article" />
+  <meta name="fb:app_id" content="" />
+
 </svelte:head>
 
 <div class="Home">
