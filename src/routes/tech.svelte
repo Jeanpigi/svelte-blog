@@ -11,7 +11,7 @@
 <script>
   import Post from "../components/Posts.svelte";
   export let posts;
-  const filterPost = posts.filter((post) => post.tag === "general");
+  const filterPost = posts.filter((post) => post.tag === "tech");
 </script>
 
 <style>
@@ -24,11 +24,11 @@
 </style>
 
 <svelte:head>
-  <title>General</title>
+  <title>Technology</title>
 </svelte:head>
 
-<div class="General">
-  <h1>General</h1>
+<div class="Tech">
+  <h1>Technology</h1>
   <div class="Posts">
     {#if filterPost.length >= 1}
       {#each filterPost as post}

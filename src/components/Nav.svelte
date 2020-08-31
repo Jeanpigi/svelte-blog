@@ -89,16 +89,16 @@
           </li>
           <li>
             <a
-              aria-current={segment === 'contact' ? 'page' : undefined}
-              href="contact">
-              contact
+              aria-current={segment === 'histories' ? 'page' : undefined}
+              href="histories">
+              histories
             </a>
           </li>
           <li>
             <a
-              aria-current={segment === 'general' ? 'page' : undefined}
-              href="general">
-              general
+              aria-current={segment === 'tech' ? 'page' : undefined}
+              href="tech">
+              technology
             </a>
           </li>
           <li>

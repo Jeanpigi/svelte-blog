@@ -34,10 +34,9 @@
 <footer class="Footer">
   <div class="Footer-container">
     <div class="Footer-content">
-      <div class="Footer-copy">Hecho con amor en JbearP</div>
+      <div class="Footer-copy">Hecho con 💜 por 🐻 JbearP 🇨🇴</div>
       <div class="Footer-svelte">
-        Full Power by svelte
-        <img src="svelte.png" alt="svelte" />
+        Full Power by svelte <img src="svelte.png" alt="svelte" />
       </div>
     </div>
   </div>

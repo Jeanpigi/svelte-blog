@@ -1,0 +1,59 @@
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://blog.jbearp.com</loc>
+        <lastmod>Fri, 28 Aug 2020 18:43:26 GMT</lastmod>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/first-chapter</loc>
+        <lastmod>Thu, 27 Aug 2020 17:26:38 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/welcome</loc>
+        <lastmod>Thu, 27 Aug 2020 17:14:21 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/the-editor</loc>
+        <lastmod>Thu, 27 Aug 2020 17:14:21 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/publishing-options</loc>
+        <lastmod>Thu, 27 Aug 2020 17:14:21 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/admin-settings</loc>
+        <lastmod>Thu, 27 Aug 2020 17:14:21 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/organising-content</loc>
+        <lastmod>Thu, 27 Aug 2020 17:14:21 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/apps-integrations</loc>
+        <lastmod>Thu, 27 Aug 2020 17:14:21 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/themes</loc>
+        <lastmod>Thu, 27 Aug 2020 17:14:21 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+  </urlset>
+  
