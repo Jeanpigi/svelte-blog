@@ -14,7 +14,7 @@
         SveltePractico
       </generator>
       <lastBuildDate>
-        Fri, 28 Aug 2020 18:43:26 GMT
+        Mon, 31 Aug 2020 20:27:20 GMT
       </lastBuildDate>
       <atom: link href="https://blog.jbearp.com/rss.xml" rel="selft" type="application/rss+xml" />
       <ttl>60</ttl>
@@ -27,10 +27,12 @@
         https://blog.jbearp.com/blog/first-chapter/
       </link>
       <description>
-        <![CDATA[ blabdaldmaodadomadoamdomaodmoadoadmoadmoad practicando practicando practicando ]]>
+        <![CDATA[ Todo comienza con una noche larga y oscura. Estaba lloviendo, habia bastante
+neblina para no visualizar nada.  Depronto llega un alto mando del ejercito, el
+sujeto se encontraba muy enojado. Se acerco ]]>
       </description>
       <categoria>
-        <![CDATA[ null ]]>
+        <![CDATA[ Mystery code ]]>
       </categoria>
       <dc:creator>
         <![CDATA[ JbearP ]]>
@@ -39,7 +41,7 @@
         Thu, 27 Aug 2020 17:26:38 GMT
       </pubDate>
       <content:encoded>
-        <![CDATA[ <p>blabdaldmaodadomadoamdomaodmoadoadmoadmoad practicando practicando practicando</p> ]]>
+        <![CDATA[ <p>Todo comienza con una noche larga y oscura. Estaba lloviendo, habia bastante neblina para no visualizar nada.  Depronto llega un alto mando del ejercito, el sujeto se encontraba muy enojado. Se acerco  </p> ]]>
       </content:encoded>
     </item>
     
@@ -167,16 +169,28 @@ We know that first impressions are important, so we've populated your new site w
     
     <item>
       <title>
-        <![CDATA[Organising your content]]>
+        <![CDATA[Scrapy]]>
       </title>
       <link>
-        https://blog.jbearp.com/blog/organising-content/
+        https://blog.jbearp.com/blog/scrapy/
       </link>
       <description>
-        <![CDATA[ Ghost has a flexible organisational taxonomy called tags and the ability to create custom site structures using dynamic routes. ]]>
+        <![CDATA[ 
+Scrapy, es un framework desarrollado en Python que permite rastrear un sitio web
+y extraer datos de manera eficiente.
+
+Después de extraer la data de las páginas web, se pueden utilizar para un
+procesamiento más profundo y luego tomar desiciones importantes para el negocio,
+asi mismo esos datos se pueden almacenar en hojas de cálculo o cualquier otro
+programa. 
+
+
+--------------------------------------------------------------------------------
+
+Scrapy se estructura en cinco componentes principale ]]>
       </description>
       <categoria>
-        <![CDATA[ null ]]>
+        <![CDATA[ Scrapy ]]>
       </categoria>
       <dc:creator>
         <![CDATA[ JbearP ]]>
@@ -185,7 +199,7 @@ We know that first impressions are important, so we've populated your new site w
         Thu, 27 Aug 2020 17:14:21 GMT
       </pubDate>
       <content:encoded>
-        <![CDATA[ <h2 id="sensible-tagging">Sensible tagging</h2><p>You can think of tags like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.</p><p>When you create content for your publication you can assign tags to help differentiate between categories of content. </p><p>For example you may tag some content with News and other content with Podcast, which would create two distinct categories of content listed on <code>/tag/news/</code> and <code>/tag/podcast/</code>, respectively.</p><p>If you tag a post with both <code>News</code> <em>and</em> <code>Podcast</code> - then it appears in both sections. Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.</p><h3 id="the-primary-tag">The primary tag</h3><p>Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. </p><blockquote><em><strong>News</strong>, Technology, Startup</em></blockquote><p>So you can add the most important tag which you want to show up in your theme, but also add related tags which are less important.</p><h3 id="private-tags">Private tags</h3><p>Sometimes you may want to assign a post a specific tag, but you don't necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.</p><p>For example, if you sometimes publish posts with video content - you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.</p><blockquote><em><strong>News</strong>, #video</em></blockquote><p>Here, the theme would assign the post publicly displayed tags of News - but it would also keep a private record of the post being tagged with #video. In your theme, you could then look for private tags conditionally and give them special formatting. </p><blockquote><em>You can find documentation for theme development techniques like this and many more over on Ghost's extensive <a href="https://ghost.org/docs/api/handlebars-themes/">theme docs</a>.</em></blockquote><h2 id="dynamic-routing">Dynamic routing</h2><p>Dynamic routing gives you the ultimate freedom to build a custom publication to suit your needs. Routes are rules that map URL patterns to your content and templates. </p><p>You may not want content tagged with <code>News</code> to exist on: <code>example.com/tag/news</code>. Instead, you want it to exist on <code>example.com/news</code> .</p><p>In this case you can use dynamic routes to create customised collections of content on your site. It's also possible to use multiple templates in your theme to render each content type differently.</p><p>There are lots of use cases for dynamic routing with Ghost, here are a few common examples: </p><ul><li>Setting a custom home page with its own template</li><li>Having separate content hubs for blog and podcast, that render differently, and have custom RSS feeds to support two types of content</li><li>Creating a founders column as a unique view, by filtering content created by specific authors</li><li>Including dates in permalinks for your posts</li><li>Setting posts to have a URL relative to their primary tag like <code>example.com/europe/story-title/</code><br></li></ul><blockquote><em>Dynamic routing can be configured in Ghost using <a href="http://yaml.org/spec/1.2/spec.html" rel="noreferrer nofollow noopener">YAML</a> files. Read our dynamic routing <a href="https://ghost.org/docs/api/handlebars-themes/routing/">documentation</a> for further details.</em></blockquote><h2 id="next-apps-integrations">Next: Apps &amp; Integrations</h2><p>Work with all your favourite apps and tools using our <a href="https://jbearpblog.herokuapp.com/apps-integrations/">integrations</a>, or create your own custom integrations with webhooks.</p> ]]>
+        <![CDATA[ <h2></h2><p>Scrapy, es un framework desarrollado en Python que permite rastrear un sitio web y extraer datos de manera eficiente.</p><p>Después de extraer la data de las páginas web, se pueden utilizar para un procesamiento más profundo y luego tomar desiciones importantes para el negocio, asi mismo esos datos se pueden almacenar en hojas de cálculo o cualquier otro programa. </p><hr><p>Scrapy se estructura en cinco componentes principales:</p><h3 id="el-motor-de-scrapy">El Motor de scrapy</h3><p>Este motor controla el flujo de datos de los demás componentes y es considerado el principal debido al poder que ofrece en la generación de peticiones y gestion de eventos contra una acción. </p><h3 id="planificador">Planificador</h3><p>El componente de planificador recibe cada una de las solicitudes que envia el motor y las ograniza una por una en orden secuencial.</p><h3 id="descargador">Descargador</h3><p>La finalidad del descargador es encontrar todas las páginas web y enviarlas al motor. Luego el motor enviará los sitios a las arañas.</p><h3 id="ara-as">Arañas</h3><p>Las arañas son el código que se escribe para realizar el analisis y  extracción de los sitios web a buscar.</p><h3 id="tuber-a-de-elementos">Tubería de elementos</h3><p>El último componente cumple la función de procesar cada uno de los elementos después de que las arañas extraen la información.</p><hr><h2 id="instalaci-n-de-scrapy">Instalación de Scrapy</h2><p>Para instalar scrapy en cualquier dispositivo es necesario contar con el lenguaje de programación Python. </p><p>Cuando se haya instalado Python, se podra instalar Scrapy con sus dependencias usando el administrador de paquetes de Python (pip) con el siguiente comando: <br></p><blockquote><em>pip install scrapy</em></blockquote><p></p><p>Para mayor información sobre la instalación y como instalar en los diferentes sistemas operativos  dirgirse al sitio oficial :  <a href="https://docs.scrapy.org/en/latest/intro/install.html">Scrapy</a>.</p><p>Es recomendable instalar Scrapy en un entorno virtual debido a las dependencias del Framework pueden entrar en conflicto con otros paquetes del sistema Python lo cual podría ocasionar daños y afectar a otros scripts.</p> ]]>
       </content:encoded>
     </item>
     
@@ -211,30 +225,6 @@ We know that first impressions are important, so we've populated your new site w
       <content:encoded>
         <![CDATA[ <h2 id="work-with-your-existing-tools">Work with your existing tools</h2><p>It's possible to connect your Ghost site to hundreds of the most popular apps and tools using integrations that take no more than a few minutes to setup.</p><p>Whether you need to automate workflows, connect your email list, build a community or embed products from your ecommerce store, our <a href="https://ghost.org/integrations/">integrations library</a> has got it all covered with hundreds of tutorials.</p><figure class="kg-card kg-image-card kg-width-full"><img src="https://static.ghost.org/v3.0.0/images/integrations-icons.png" class="kg-image" alt></figure><h2 id="zapier">Zapier</h2><p>On top of this, you can connect your Ghost site to more than 1,000 external services using the official integration with <a href="https://zapier.com">Zapier</a>.</p><p>Zapier sets up automations with Triggers and Actions, which allows you to create and customise a wide range of connected applications.</p><blockquote><strong>Example</strong>: When someone new subscribes to a newsletter on a Ghost site (Trigger) then the contact information is automatically pushed into MailChimp (Action).</blockquote><p><strong>Here are the most popular Ghost&lt;&gt;Zapier automation templates:</strong> </p><!--kg-card-begin: markdown--><script src="https://zapier.com/apps/embed/widget.js?services=Ghost&container=true&limit=8"></script>
 <!--kg-card-end: markdown--><h2 id="custom-integrations">Custom integrations</h2><p>At the heart of Ghost sits a robust JSON API – designed to create, manage and retrieve content with ease. </p><p>It's possible to create custom Ghost integrations with dedicated API keys and webhooks from the Integrations page within Ghost Admin. </p><figure class="kg-card kg-image-card"><img src="https://static.ghost.org/v3.0.0/images/integrations-and-webhooks-in-ghost.png" class="kg-image" alt="Screenshot of custom integrations with webhooks in Ghost Admin"></figure><p>Beyond that, the API allows you to build entirely custom publishing apps. You can send content from your favourite desktop editor, build a custom interface for handling editorial workflow or use Ghost as a full headless CMS with a custom front-end.</p><p>The Ghost API is <a href="https://ghost.org/docs/api/">thoroughly documented</a> and straightforward to work with for developers of almost any level. </p><h2 id="final-step-themes">Final step: Themes</h2><p>Alright, on to the last post in our welcome-series! If you're curious about creating your own Ghost theme from scratch, <a href="https://jbearpblog.herokuapp.com/themes/">find out how that works</a>.</p> ]]>
-      </content:encoded>
-    </item>
-    
-    <item>
-      <title>
-        <![CDATA[Creating a custom theme]]>
-      </title>
-      <link>
-        https://blog.jbearp.com/blog/themes/
-      </link>
-      <description>
-        <![CDATA[ Ghost comes with a beautiful default theme designed for publishers which can easily be adapted for most purposes, or you can build a custom theme to suit your needs. ]]>
-      </description>
-      <categoria>
-        <![CDATA[ null ]]>
-      </categoria>
-      <dc:creator>
-        <![CDATA[ JbearP ]]>
-      </dc:creator>
-      <pubDate>
-        Thu, 27 Aug 2020 17:14:21 GMT
-      </pubDate>
-      <content:encoded>
-        <![CDATA[ <h2 id="ghost-themes">Ghost themes</h2><p>Ghost comes with a default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p><p>If you need something a little more customised, it's entirely possible to build on top of existing open source themes, or to build your own from scratch. Rather than giving you a few basic settings which act as a poor proxy for code, we just let you write code.</p><h2 id="marketplace">Marketplace</h2><p>There are a huge range of both free and premium pre-built themes which you can download from the <a href="https://ghost.org/marketplace/">Ghost Theme Marketplace</a>:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://static.ghost.org/v3.0.0/images/theme-marketplace.png" class="kg-image" alt="Ghost theme marketplace screenshot"><figcaption>Anyone can write a completely custom Ghost theme with some solid knowledge of HTML and CSS</figcaption></figure><h2 id="theme-development">Theme development</h2><p>Ghost themes are written with a templating language called handlebars, which has a set of dynamic helpers to insert your data into template files. For example: <code>{{author.name}}</code> outputs the name of the current author.</p><p>The best way to learn how to write your own Ghost theme is to have a look at <a href="https://github.com/TryGhost/Casper">the source code for Casper</a>, which is heavily commented and should give you a sense of how everything fits together.<br></p><ul><li><code>default.hbs</code> is the main template file, all contexts will load inside this file unless specifically told to use a different template.</li><li><code>post.hbs</code> is the file used in the context of viewing a post.</li><li><code>index.hbs</code> is the file used in the context of viewing the home page.</li><li>and so on</li></ul><p>We've got <a href="https://ghost.org/docs/api/handlebars-themes/">full and extensive theme documentation</a> which outlines every template file, context and helper that you can use. You can also get started with our useful <a href="https://github.com/TryGhost/Starter/">starter theme</a>, which includes the most common foundations and components required to build your own theme.</p><blockquote>If you want to chat with other people making Ghost themes to get any advice or help, there's also a <strong>themes</strong> section on our <a href="https://forum.ghost.org/c/themes">public Ghost forum</a>.</blockquote> ]]>
       </content:encoded>
     </item>
     
