@@ -69,13 +69,19 @@
   .Header-social img {
     width: 20px;
   }
+
+  @media only screen and (max-width: 479px) {
+    .Header-container {
+      grid-template-columns: minmax(auto, 320px);
+    }
+  }
 </style>
 
 <header class="Header">
   <div class="Header-container">
     <div class="Header-content">
       <div class="Header-logo">
-        <figure class="figure"><img src="logo-512.svg" alt="logo" /></figure>
+        <img src="logo-512.svg" alt="logo" />
         <h1>JbearP Blog <span> Tecnología | Historias web</span></h1>
       </div>
       <div class="Header-social">

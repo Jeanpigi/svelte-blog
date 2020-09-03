@@ -36,13 +36,13 @@
 
   .btn {
     box-shadow: inset 0px 1px 0px 0px #bee2f9;
-    background: linear-gradient(to bottom, #63b9ee 5%, #468ccf 100%);
-    background-color: #63b9ee;
+    background: linear-gradient(to bottom, #7e5c87 5%, #343540 100%);
+    background-color: #7e5c87;
     border-radius: 6px;
-    border: 1px solid #3866a3;
+    border: 1px solid #7e5c87;
     display: inline-block;
     cursor: pointer;
-    color: #14396a;
+    color: #fff;
     font-family: "Arial";
     font-size: 15px;
     font-weight: bold;
@@ -53,8 +53,8 @@
   }
 
   .btn:hover {
-    background: linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
-    background: #468ccf;
+    background: linear-gradient(to bottom, #343540 5%, #7e5c87 100%);
+    background: #343540;
   }
 
   .btn:active {
@@ -76,12 +76,8 @@
     target="popupwindow"
     onsubmit="window.open('https://tinyletter.com/jeanpierre666', 'popupwindow',
     'scrollbars=yes,width=800,height=600');return true">
-    <p>
-      <label for="tlemail">Enter your email address</label>
-    </p>
-    <p>
-      <input type="text" style="width:140px" name="email" id="tlemail" />
-    </p>
+    <p><label for="tlemail">Enter your email address</label></p>
+    <p><input type="text" style="width:140px" name="email" id="tlemail" /></p>
     <input type="hidden" value="1" name="embed" />
     <button class="btn" type="submit" value="Subscribe">Subscribirse</button>
     <p>

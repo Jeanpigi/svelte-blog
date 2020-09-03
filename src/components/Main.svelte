@@ -17,6 +17,16 @@
     grid-gap: 60px;
     justify-content: space-between;
   }
+
+  @media only screen and (max-width: 479px) {
+    .Main-container {
+      grid-template-columns: minmax(auto, 320px);
+    }
+
+    .Main-content {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
 
 <main class="Main">

@@ -75,7 +75,7 @@
   <div class="Error404-image">
     <figure>
       <img
-        src="https://i.ibb.co/n79yS7p/img404.png"
+        src="https://i.ibb.co/JmMKm2M/Ilustracio-n-sin-ti-tulo-4.png"
         alt="error 404"
         border="0" />
     </figure>

@@ -14,7 +14,7 @@
         SveltePractico
       </generator>
       <lastBuildDate>
-        Mon, 31 Aug 2020 20:27:20 GMT
+        Thu, 03 Sep 2020 03:28:35 GMT
       </lastBuildDate>
       <atom: link href="https://blog.jbearp.com/rss.xml" rel="selft" type="application/rss+xml" />
       <ttl>60</ttl>
@@ -32,7 +32,7 @@ neblina para no visualizar nada.  Depronto llega un alto mando del ejercito, el
 sujeto se encontraba muy enojado. Se acerco ]]>
       </description>
       <categoria>
-        <![CDATA[ Mystery code ]]>
+        <![CDATA[ history ]]>
       </categoria>
       <dc:creator>
         <![CDATA[ JbearP ]]>
@@ -42,31 +42,6 @@ sujeto se encontraba muy enojado. Se acerco ]]>
       </pubDate>
       <content:encoded>
         <![CDATA[ <p>Todo comienza con una noche larga y oscura. Estaba lloviendo, habia bastante neblina para no visualizar nada.  Depronto llega un alto mando del ejercito, el sujeto se encontraba muy enojado. Se acerco  </p> ]]>
-      </content:encoded>
-    </item>
-    
-    <item>
-      <title>
-        <![CDATA[Welcome to Ghost]]>
-      </title>
-      <link>
-        https://blog.jbearp.com/blog/welcome/
-      </link>
-      <description>
-        <![CDATA[ Welcome, it's great to have you here.
-We know that first impressions are important, so we've populated your new site with some initial getting started posts that will help you get familiar with everything in no time. ]]>
-      </description>
-      <categoria>
-        <![CDATA[ null ]]>
-      </categoria>
-      <dc:creator>
-        <![CDATA[ JbearP ]]>
-      </dc:creator>
-      <pubDate>
-        Thu, 27 Aug 2020 17:14:21 GMT
-      </pubDate>
-      <content:encoded>
-        <![CDATA[ <h2 id="a-few-things-you-should-know"><strong>A few things you should know</strong></h2><ol><li>Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That's who it works best for. </li><li>The entire platform can be modified and customised to suit your needs. It's very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog. </li><li>It's possible to work with all your favourite tools and apps with hundreds of <a href="https://ghost.org/integrations/">integrations</a> to speed up your workflows, connect email lists, build communities and much more.</li></ol><h2 id="behind-the-scenes">Behind the scenes</h2><p>Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our <a href="https://ghost.org/pricing">Ghost(Pro)</a> service, and every penny we make is re-invested into funding further development of free, open source technology for modern publishing.</p><p>The version of Ghost you are looking at right now would not have been made possible without generous contributions from the open source <a href="https://github.com/TryGhost">community</a>.</p><h2 id="next-up-the-editor">Next up, the editor</h2><p>The main thing you'll want to read about next is probably: <a href="https://jbearpblog.herokuapp.com/the-editor/">the Ghost editor</a>. This is where the good stuff happens.</p><blockquote>By the way, once you're done reading, you can simply delete the default Ghost user from your team to remove all of these introductory posts! </blockquote> ]]>
       </content:encoded>
     </item>
     
@@ -145,30 +120,6 @@ We know that first impressions are important, so we've populated your new site w
     
     <item>
       <title>
-        <![CDATA[Managing admin settings]]>
-      </title>
-      <link>
-        https://blog.jbearp.com/blog/admin-settings/
-      </link>
-      <description>
-        <![CDATA[ There are a couple of things to do next while you're getting set up: making your site private and inviting your team. ]]>
-      </description>
-      <categoria>
-        <![CDATA[ null ]]>
-      </categoria>
-      <dc:creator>
-        <![CDATA[ JbearP ]]>
-      </dc:creator>
-      <pubDate>
-        Thu, 27 Aug 2020 17:14:21 GMT
-      </pubDate>
-      <content:encoded>
-        <![CDATA[ <h2 id="make-your-site-private">Make your site private</h2><p>If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a basic shared pass-phrase.</p><p>You can toggle this preference on at the bottom of Ghost's General Settings:</p><figure class="kg-card kg-image-card"><img src="https://static.ghost.org/v1.0.0/images/private.png" class="kg-image" alt></figure><p>Ghost will give you a short, randomly generated pass-phrase which you can share with anyone who needs access to the site while you're working on it. While this setting is enabled, all search engine optimisation features will be switched off to help keep your site under the radar.</p><p>Do remember though, this is <em>not</em> secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for some very basic privacy.</p><h2 id="invite-your-team">Invite your team </h2><p>Ghost has a number of different user roles for your team:</p><p><strong>Contributors</strong><br>This is the base user level in Ghost. Contributors can create and edit their own draft posts, but they are unable to edit drafts of others or publish posts. Contributors are <strong>untrusted</strong> users with the most basic access to your publication.</p><p><strong>Authors</strong><br>Authors are the 2nd user level in Ghost. Authors can write, edit  and publish their own posts. Authors are <strong>trusted</strong> users. If you don't trust users to be allowed to publish their own posts, they should be set as Contributors.</p><p><strong>Editors</strong><br>Editors are the 3rd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new Contributors &amp; Authors to the site.</p><p><strong>Administrators</strong><br>The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site.<br><br><strong>The Owner</strong><br>There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable. For example: billing details, if using <a href="https://ghost.org/pricing/"><strong>Ghost(Pro)</strong></a>.</p><blockquote><em>It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.</em></blockquote><h2 id="next-organising-content">Next: Organising content</h2><p>Find out how to <a href="https://jbearpblog.herokuapp.com/organising-content/">organise your content</a> with sensible tags and authors, or for more advanced configurations, how to create custom content structures using dynamic routing.</p> ]]>
-      </content:encoded>
-    </item>
-    
-    <item>
-      <title>
         <![CDATA[Scrapy]]>
       </title>
       <link>
@@ -184,13 +135,13 @@ procesamiento más profundo y luego tomar desiciones importantes para el negocio
 asi mismo esos datos se pueden almacenar en hojas de cálculo o cualquier otro
 programa. 
 
+Scrapy se estructura en cinco componentes principales:
 
---------------------------------------------------------------------------------
-
-Scrapy se estructura en cinco componentes principale ]]>
+El Motor de scrapy
+Este motor controla el flujo de datos de los demás component ]]>
       </description>
       <categoria>
-        <![CDATA[ Scrapy ]]>
+        <![CDATA[ tech ]]>
       </categoria>
       <dc:creator>
         <![CDATA[ JbearP ]]>
@@ -199,32 +150,7 @@ Scrapy se estructura en cinco componentes principale ]]>
         Thu, 27 Aug 2020 17:14:21 GMT
       </pubDate>
       <content:encoded>
-        <![CDATA[ <h2></h2><p>Scrapy, es un framework desarrollado en Python que permite rastrear un sitio web y extraer datos de manera eficiente.</p><p>Después de extraer la data de las páginas web, se pueden utilizar para un procesamiento más profundo y luego tomar desiciones importantes para el negocio, asi mismo esos datos se pueden almacenar en hojas de cálculo o cualquier otro programa. </p><hr><p>Scrapy se estructura en cinco componentes principales:</p><h3 id="el-motor-de-scrapy">El Motor de scrapy</h3><p>Este motor controla el flujo de datos de los demás componentes y es considerado el principal debido al poder que ofrece en la generación de peticiones y gestion de eventos contra una acción. </p><h3 id="planificador">Planificador</h3><p>El componente de planificador recibe cada una de las solicitudes que envia el motor y las ograniza una por una en orden secuencial.</p><h3 id="descargador">Descargador</h3><p>La finalidad del descargador es encontrar todas las páginas web y enviarlas al motor. Luego el motor enviará los sitios a las arañas.</p><h3 id="ara-as">Arañas</h3><p>Las arañas son el código que se escribe para realizar el analisis y  extracción de los sitios web a buscar.</p><h3 id="tuber-a-de-elementos">Tubería de elementos</h3><p>El último componente cumple la función de procesar cada uno de los elementos después de que las arañas extraen la información.</p><hr><h2 id="instalaci-n-de-scrapy">Instalación de Scrapy</h2><p>Para instalar scrapy en cualquier dispositivo es necesario contar con el lenguaje de programación Python. </p><p>Cuando se haya instalado Python, se podra instalar Scrapy con sus dependencias usando el administrador de paquetes de Python (pip) con el siguiente comando: <br></p><blockquote><em>pip install scrapy</em></blockquote><p></p><p>Para mayor información sobre la instalación y como instalar en los diferentes sistemas operativos  dirgirse al sitio oficial :  <a href="https://docs.scrapy.org/en/latest/intro/install.html">Scrapy</a>.</p><p>Es recomendable instalar Scrapy en un entorno virtual debido a las dependencias del Framework pueden entrar en conflicto con otros paquetes del sistema Python lo cual podría ocasionar daños y afectar a otros scripts.</p> ]]>
-      </content:encoded>
-    </item>
-    
-    <item>
-      <title>
-        <![CDATA[Apps & integrations]]>
-      </title>
-      <link>
-        https://blog.jbearp.com/blog/apps-integrations/
-      </link>
-      <description>
-        <![CDATA[ Work with all your favourite apps and tools or create your own custom integrations using the Ghost API. ]]>
-      </description>
-      <categoria>
-        <![CDATA[ null ]]>
-      </categoria>
-      <dc:creator>
-        <![CDATA[ JbearP ]]>
-      </dc:creator>
-      <pubDate>
-        Thu, 27 Aug 2020 17:14:21 GMT
-      </pubDate>
-      <content:encoded>
-        <![CDATA[ <h2 id="work-with-your-existing-tools">Work with your existing tools</h2><p>It's possible to connect your Ghost site to hundreds of the most popular apps and tools using integrations that take no more than a few minutes to setup.</p><p>Whether you need to automate workflows, connect your email list, build a community or embed products from your ecommerce store, our <a href="https://ghost.org/integrations/">integrations library</a> has got it all covered with hundreds of tutorials.</p><figure class="kg-card kg-image-card kg-width-full"><img src="https://static.ghost.org/v3.0.0/images/integrations-icons.png" class="kg-image" alt></figure><h2 id="zapier">Zapier</h2><p>On top of this, you can connect your Ghost site to more than 1,000 external services using the official integration with <a href="https://zapier.com">Zapier</a>.</p><p>Zapier sets up automations with Triggers and Actions, which allows you to create and customise a wide range of connected applications.</p><blockquote><strong>Example</strong>: When someone new subscribes to a newsletter on a Ghost site (Trigger) then the contact information is automatically pushed into MailChimp (Action).</blockquote><p><strong>Here are the most popular Ghost&lt;&gt;Zapier automation templates:</strong> </p><!--kg-card-begin: markdown--><script src="https://zapier.com/apps/embed/widget.js?services=Ghost&container=true&limit=8"></script>
-<!--kg-card-end: markdown--><h2 id="custom-integrations">Custom integrations</h2><p>At the heart of Ghost sits a robust JSON API – designed to create, manage and retrieve content with ease. </p><p>It's possible to create custom Ghost integrations with dedicated API keys and webhooks from the Integrations page within Ghost Admin. </p><figure class="kg-card kg-image-card"><img src="https://static.ghost.org/v3.0.0/images/integrations-and-webhooks-in-ghost.png" class="kg-image" alt="Screenshot of custom integrations with webhooks in Ghost Admin"></figure><p>Beyond that, the API allows you to build entirely custom publishing apps. You can send content from your favourite desktop editor, build a custom interface for handling editorial workflow or use Ghost as a full headless CMS with a custom front-end.</p><p>The Ghost API is <a href="https://ghost.org/docs/api/">thoroughly documented</a> and straightforward to work with for developers of almost any level. </p><h2 id="final-step-themes">Final step: Themes</h2><p>Alright, on to the last post in our welcome-series! If you're curious about creating your own Ghost theme from scratch, <a href="https://jbearpblog.herokuapp.com/themes/">find out how that works</a>.</p> ]]>
+        <![CDATA[ <h2></h2><p>Scrapy, es un framework desarrollado en Python que permite rastrear un sitio web y extraer datos de manera eficiente.</p><p>Después de extraer la data de las páginas web, se pueden utilizar para un procesamiento más profundo y luego tomar desiciones importantes para el negocio, asi mismo esos datos se pueden almacenar en hojas de cálculo o cualquier otro programa. </p><p>Scrapy se estructura en cinco componentes principales:</p><h3 id="el-motor-de-scrapy">El Motor de scrapy</h3><p>Este motor controla el flujo de datos de los demás componentes y es considerado el principal debido al poder que ofrece en la generación de peticiones y gestion de eventos contra una acción. </p><h3 id="planificador">Planificador</h3><p>El componente de planificador recibe cada una de las solicitudes que envia el motor y las ograniza una por una en orden secuencial.</p><h3 id="descargador">Descargador</h3><p>La finalidad del descargador es encontrar todas las páginas web y enviarlas al motor. Luego el motor enviará los sitios a las arañas.</p><h3 id="ara-as">Arañas</h3><p>Las arañas son el código que se escribe para realizar el analisis y  extracción de los sitios web a buscar.</p><h3 id="tuber-a-de-elementos">Tubería de elementos</h3><p>El último componente cumple la función de procesar cada uno de los elementos después de que las arañas extraen la información.</p><h2 id="instalaci-n-de-scrapy">Instalación de Scrapy</h2><p>Para instalar scrapy en cualquier dispositivo es necesario contar con el lenguaje de programación Python. </p><p>Cuando se haya instalado Python, se podra instalar Scrapy con sus dependencias usando el administrador de paquetes de Python (pip) con el siguiente comando: <br></p><blockquote><em>pip install scrapy</em></blockquote><p></p><p>Para mayor información sobre la instalación y como instalar en los diferentes sistemas operativos  dirgirse al sitio oficial :  <a href="https://docs.scrapy.org/en/latest/intro/install.html">Scrapy</a>.</p><p>Es recomendable instalar Scrapy en un entorno virtual debido a las dependencias del Framework pueden entrar en conflicto con otros paquetes del sistema Python lo cual podría ocasionar daños y afectar a otros scripts.</p> ]]>
       </content:encoded>
     </item>
     

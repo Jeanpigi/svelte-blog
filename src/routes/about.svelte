@@ -9,6 +9,16 @@
     border-radius: 50%;
     margin: 1em 2em 1em 0;
   }
+
+  @media only screen and (max-width: 479px) {
+    .About-content {
+      display: grid;
+    }
+
+    code {
+      text-align: center;
+    }
+  }
 </style>
 
 <svelte:head>

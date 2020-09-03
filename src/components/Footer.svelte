@@ -29,6 +29,12 @@
   .Footer-svelte img {
     margin: 0 0 0 0.5em;
   }
+
+  @media only screen and (max-width: 479px) {
+    .Footer-container {
+      grid-template-columns: minmax(auto, 320px);
+    }
+  }
 </style>
 
 <footer class="Footer">

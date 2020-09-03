@@ -66,6 +66,12 @@
   a:hover {
     color: rgba(25, 26, 34, 1);
   }
+
+  @media only screen and (max-width: 479px) {
+    .Nav-container {
+      grid-template-columns: minmax(auto, 320px);
+    }
+  }
 </style>
 
 <nav class="Nav">
