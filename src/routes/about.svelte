@@ -26,7 +26,13 @@
 </svelte:head>
 
 <div class="About">
-  <h1>Hola, mi nombre es Jean Pierre Giovanni Arenas Ortiz</h1>
+  <h1><strong>¿Qué es Jbearp Blog?</strong></h1>
+  <p>
+    Jbearp es un blog dondé encontrarás contenido sobre tecnologías e historias
+    web, creado y desarrollado por mí, <strong>Jean Pierre Giovanni Arenas Ortiz</strong>
+    con el objetivo de compartir conocimientos y escribir series web. Espero que
+    te gusté y te doy la bienvenida.
+  </p>
   <div class="About-content">
     <img src="https://i.ibb.co/kxzzXdt/imagen.jpg" alt="imagen" border="0" />
     <code>
