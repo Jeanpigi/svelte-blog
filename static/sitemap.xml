@@ -3,8 +3,14 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://blog.jbearp.com</loc>
-        <lastmod>Thu, 10 Sep 2020 03:16:42 GMT</lastmod>
+        <lastmod>Fri, 11 Sep 2020 20:29:02 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/live-streaming</loc>
+        <lastmod>Thu, 10 Sep 2020 16:37:49 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>

@@ -33,6 +33,11 @@
     con el objetivo de compartir conocimientos y escribir series web. Espero que
     te gusté y te doy la bienvenida.
   </p>
+  <p>
+    El Jbearp Blog existen dos pestañas importantes; Histories dondé se publican
+    todo el contenido de series web y Technologies dondé va todo el contenido de
+    programación, diseño y aprendizajes sobre tecnología.
+  </p>
   <div class="About-content">
     <img src="https://i.ibb.co/kxzzXdt/imagen.jpg" alt="imagen" border="0" />
     <code>
