@@ -28,14 +28,13 @@
 </svelte:head>
 
 <div class="Tech">
-  <h1>Technology</h1>
   <div class="Posts">
     {#if filterPost.length >= 1}
       {#each filterPost as post}
         <Post {post} />
       {/each}
     {:else}
-      <p>Sin Resultados...</p>
+      <p>Lo sentimos no hay Resultados...</p>
     {/if}
   </div>
 </div>

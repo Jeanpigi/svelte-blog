@@ -3,7 +3,7 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://blog.jbearp.com</loc>
-        <lastmod>Fri, 11 Sep 2020 20:51:33 GMT</lastmod>
+        <lastmod>Sat, 12 Sep 2020 17:17:24 GMT</lastmod>
         <priority>1.0</priority>
     </url>
     
@@ -20,7 +20,7 @@
     </url>
     
     <url>
-        <loc>https://blog.jbearp.com/blog/first-chapter</loc>
+        <loc>https://blog.jbearp.com/blog/chapter-one</loc>
         <lastmod>Thu, 27 Aug 2020 17:26:38 GMT</lastmod>
         <priority>0.80</priority>
     </url>

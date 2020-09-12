@@ -4,12 +4,11 @@
 
 <style>
   .Nav {
-    border-bottom: 1px solid rgba(255, 0, 121, 0.2);
+    border-bottom: 1px solid rgb(167, 3, 153);
     font-weight: 300;
     background-color: #fafbfc;
     color: #191a22;
   }
-
   .Nav-container {
     display: grid;
     grid-template-columns: minmax(auto, 1024px);
@@ -20,6 +19,7 @@
   .Nav-content {
     display: flex;
     justify-content: space-between;
+    padding-left: 1em;
   }
 
   ul {
@@ -47,8 +47,8 @@
     position: absolute;
     content: "";
     width: calc(100% - 1em);
-    height: 2px;
-    background-color: rgb(255, 62, 0);
+    height: 3px;
+    background-color: #564761;
     display: block;
     bottom: -1px;
   }

@@ -28,7 +28,7 @@
 <div class="About">
   <h1><strong>¿Qué es Jbearp Blog?</strong></h1>
   <p>
-    Jbearp es un blog dondé encontrarás contenido sobre tecnologías e historias
+    Jbearp es un blog dondé encontrarás contenido sobre tecnología e historias
     web, creado y desarrollado por mí, <strong>Jean Pierre Giovanni Arenas Ortiz</strong>
     con el objetivo de compartir conocimientos y escribir series web. Espero que
     te gusté y te doy la bienvenida.

@@ -14,19 +14,27 @@
   const filterPost = posts.filter((post) => post.tag === "history");
 </script>
 
+<style>
+  .Posts {
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+  }
+</style>
+
 <svelte:head>
   <title>Histories</title>
 </svelte:head>
 
 <div class="Histories">
-  <h1>Histories</h1>
   <div class="Posts">
     {#if filterPost.length >= 1}
       {#each filterPost as post}
         <Post {post} />
       {/each}
     {:else}
-      <p>Sin Resultados...</p>
+      <p>Lo sentimos no hay Resultados...</p>
     {/if}
   </div>
 </div>

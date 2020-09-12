@@ -66,7 +66,6 @@
 <div class="Error404">
   <div class="Error404-message">
     <h1>{status}</h1>
-
     <p>{error.message}</p>
     {#if dev && error.stack}
       <pre>{error.stack}</pre>
@@ -76,7 +75,7 @@
     <figure>
       <img
         src="https://i.ibb.co/JmMKm2M/Ilustracio-n-sin-ti-tulo-4.png"
-        alt="error 404"
+        alt="error404"
         border="0" />
     </figure>
   </div>

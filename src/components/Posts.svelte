@@ -59,7 +59,8 @@
       <div class="Post-title">
         <h2>
           <a rel="prefectch" href="blog/{post.slug}">
-            {randomEmoji()} {post.title}
+            {randomEmoji()}
+            {post.title}
           </a>
         </h2>
         <p>

@@ -40,6 +40,9 @@
   <meta name="og:type" content="article" />
   <meta name="fb:app_id" content="" />
 
+  <meta
+    name="google-site-verification"
+    content="fgZgQcazxMOVgK0dDRQMa6MJD_0H4_SVKy1pcg-MzT0" />
 </svelte:head>
 
 <div class="Home">

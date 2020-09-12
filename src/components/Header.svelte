@@ -92,7 +92,10 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('github')}>
-              <img src="github-icon.webp" alt="Github" />
+              <img
+                src="https://i.ibb.co/vdBN8K9/github-icon.png"
+                alt="Github"
+                border="0" />
             </a>
           </li>
           <li>
@@ -101,7 +104,10 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('instagram')}>
-              <img src="instagram-icon.webp" alt="Instagram" />
+              <img
+                src="https://i.ibb.co/5vbhJtk/instagram-icon.png"
+                alt="Instagram"
+                border="0" />
             </a>
           </li>
           <li>
@@ -110,7 +116,10 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('facebook')}>
-              <img src="facebook-icon.png" alt="Facebook" />
+              <img
+                src="https://i.ibb.co/DfGshZS/facebook-icon.png"
+                alt="Facebook"
+                border="0" />
             </a>
           </li>
         </ul>
