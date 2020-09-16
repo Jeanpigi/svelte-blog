@@ -3,8 +3,26 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://blog.jbearp.com</loc>
-        <lastmod>Sat, 12 Sep 2020 17:17:24 GMT</lastmod>
+        <lastmod>Wed, 16 Sep 2020 03:39:59 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/untitled</loc>
+        <lastmod>Wed, 16 Sep 2020 03:20:32 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/homebrew</loc>
+        <lastmod>Wed, 16 Sep 2020 02:25:38 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/terminal</loc>
+        <lastmod>Wed, 16 Sep 2020 01:16:12 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>
