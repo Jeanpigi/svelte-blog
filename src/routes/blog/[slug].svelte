@@ -43,13 +43,17 @@
   }
 
   .Post-title {
-    color: #555;
+    color: #333;
     font-size: 14px;
     font-weight: 300;
     margin-top: 5px;
     padding: 0;
   }
 
+  .date time,
+  span {
+    color: #594863;
+  }
   .comments {
     margin: 2em 0 0 0;
   }
@@ -64,7 +68,7 @@
     <h2>{post.title}</h2>
   </div>
   <p class="date">
-    <time datetime={post.createdAt}>📆 {formatIsoTime(post.createdAt)}</time>
+    <time datetime={post.createdAt}> 📆 {formatIsoTime(post.createdAt)}</time>
     <span>{readingTime(post.html)}</span>
   </p>
   <div class="content">

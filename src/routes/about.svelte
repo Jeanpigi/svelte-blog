@@ -1,4 +1,7 @@
 <style>
+  .About {
+    text-align: justify;
+  }
   .About-content {
     display: flex;
     justify-content: space-between;
@@ -36,7 +39,7 @@
   <p>
     El Jbearp Blog existen dos pestañas importantes; Histories dondé se publican
     todo el contenido de series web y Technologies dondé va todo el contenido de
-    programación, diseño y aprendizajes sobre tecnología.
+    programación, diseño, video juegos y tecnología.
   </p>
   <div class="About-content">
     <img src="https://i.ibb.co/kxzzXdt/imagen.jpg" alt="imagen" border="0" />
@@ -58,5 +61,13 @@
     <li>Analista de Proyectos Educativos</li>
     <li>Sistematizador de Proyectos</li>
     <li>Auxiliar IT</li>
+  </p>
+  <span>
+    🌱 Actualmente estoy aprendiendo sobre Deno, TypeScript, Python y Go.
+  </span>
+  <p>
+    📫 Cómo contactarme: Actualmente, busco nuevas oportunidades que puedan
+    ayudarme a mejorar como persona y profesional. Ya sea que necesites
+    contactarme a través de mi red social.
   </p>
 </div>

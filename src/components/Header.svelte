@@ -54,7 +54,7 @@
   .Header a {
     text-decoration: none;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .Header-logo {
@@ -66,7 +66,7 @@
     cursor: pointer;
   }
 
-  .Header-social img {
+  .Header-social i {
     width: 20px;
   }
 
@@ -92,10 +92,7 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('github')}>
-              <img
-                src="https://i.ibb.co/vdBN8K9/github-icon.png"
-                alt="Github"
-                border="0" />
+              <i class="fab fa-github"></i>
             </a>
           </li>
           <li>
@@ -104,10 +101,7 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('instagram')}>
-              <img
-                src="https://i.ibb.co/5vbhJtk/instagram-icon.png"
-                alt="Instagram"
-                border="0" />
+              <i class="fab fa-instagram"></i>
             </a>
           </li>
           <li>
@@ -116,10 +110,7 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('facebook')}>
-              <img
-                src="https://i.ibb.co/DfGshZS/facebook-icon.png"
-                alt="Facebook"
-                border="0" />
+              <i class="fab fa-facebook"></i>
             </a>
           </li>
         </ul>

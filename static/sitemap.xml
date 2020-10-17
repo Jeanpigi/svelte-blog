@@ -3,8 +3,32 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://blog.jbearp.com</loc>
-        <lastmod>Wed, 16 Sep 2020 03:39:59 GMT</lastmod>
+        <lastmod>Sat, 17 Oct 2020 04:25:31 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/kali-linux-y-docker</loc>
+        <lastmod>Sat, 17 Oct 2020 03:42:00 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/extinction</loc>
+        <lastmod>Mon, 14 Sep 2020 14:36:46 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/redes-de-internet</loc>
+        <lastmod>Sat, 19 Sep 2020 17:20:18 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/how-to-hide-files-and-folders-on-your-mac</loc>
+        <lastmod>Sat, 19 Sep 2020 04:07:51 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>

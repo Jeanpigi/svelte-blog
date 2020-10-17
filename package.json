@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "data": "node src/bin/index.js",
-    "dev": "sapper dev",
+    "dev": "yarn run data && sapper dev",
     "build": "sapper build",
     "export": "sapper export",
     "start": "node __sapper__/build",
