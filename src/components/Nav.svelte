@@ -83,28 +83,28 @@
             <a
               aria-current={segment === undefined ? 'page' : undefined}
               href=".">
-              home
+              Inicio
             </a>
           </li>
           <li>
             <a
               aria-current={segment === 'about' ? 'page' : undefined}
               href="about">
-              about
+              About
             </a>
           </li>
           <li>
             <a
               aria-current={segment === 'histories' ? 'page' : undefined}
               href="histories">
-              histories
+              Historias
             </a>
           </li>
           <li>
             <a
               aria-current={segment === 'tech' ? 'page' : undefined}
               href="tech">
-              technology
+              Technología
             </a>
           </li>
           <li>
@@ -112,7 +112,7 @@
               rel="prefetch"
               aria-current={segment === 'blog' ? 'page' : undefined}
               href="blog">
-              blog
+              Blog
             </a>
           </li>
         </ul>

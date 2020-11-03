@@ -37,8 +37,8 @@
     te gusté y te doy la bienvenida.
   </p>
   <p>
-    El Jbearp Blog existen dos pestañas importantes; Histories dondé se publican
-    todo el contenido de series web y Technologies dondé va todo el contenido de
+    El Jbearp Blog existen dos pestañas importantes; Historias dondé se publican
+    todo el contenido de series web y Technología dondé va todo el contenido de
     programación, diseño, video juegos y tecnología.
   </p>
   <div class="About-content">

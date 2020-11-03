@@ -3,8 +3,26 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://blog.jbearp.com</loc>
-        <lastmod>Sat, 17 Oct 2020 04:25:31 GMT</lastmod>
+        <lastmod>Tue, 03 Nov 2020 18:05:12 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/tensor-flow-js</loc>
+        <lastmod>Wed, 23 Sep 2020 18:34:29 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/brave</loc>
+        <lastmod>Sat, 17 Oct 2020 05:07:45 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/first-travel</loc>
+        <lastmod>Thu, 24 Sep 2020 01:51:58 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>
