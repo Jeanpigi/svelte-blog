@@ -35,7 +35,7 @@ code {
   font-weight: 300;
 }
 .content h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #191a22;
 }
@@ -81,10 +81,4 @@ code {
   height: 0;
   overflow: hidden;
   margin: 0.4em 0 1.6em;
-}
-
-@media (min-width: 400px) {
-	body {
-		font-size: 1.6rem;
-	}
 }
