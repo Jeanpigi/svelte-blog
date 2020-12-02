@@ -19,7 +19,7 @@
   .Nav-content {
     display: flex;
     justify-content: space-between;
-    padding-left: 1em;
+    padding-left: .1rem;
   }
 
   ul {
@@ -57,7 +57,7 @@
     text-decoration: none;
     padding: 1em 1em 1em 0;
     display: block;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 300;
     transition: all 0.3s ease-in-out 0s;
     color: rgba(25, 26, 34, 0.7);

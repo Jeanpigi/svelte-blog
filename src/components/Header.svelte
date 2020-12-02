@@ -6,7 +6,7 @@
   .Header {
     background-color: #24292e;
     color: #ffffff;
-    padding: 1em 0 0 0;
+    padding-top: .1rem 0 0 0;
   }
 
   .Header-container {
@@ -24,7 +24,7 @@
 
   .Header h1 {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     letter-spacing: 0.8px;
@@ -34,10 +34,10 @@
 
   .Header h1 span {
     display: block;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 300;
     letter-spacing: normal;
-    margin: 0.3em 0 0 0;
+    margin-top: 0.3rem;
   }
 
   .Header ul {
@@ -48,13 +48,13 @@
 
   .Header li {
     display: inline-block;
-    margin: 0 0.5em 0 0;
+    margin-bottom: .5rem;
   }
 
   .Header a {
     text-decoration: none;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .Header-logo {
@@ -62,7 +62,7 @@
     align-items: center;
   }
   .Header-logo img {
-    width: 70px;
+    width: 7rem;
     cursor: pointer;
   }
 

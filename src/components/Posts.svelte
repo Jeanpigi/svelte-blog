@@ -13,7 +13,7 @@
   }
 
   .Post-content {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 300;
     display: grid;
     justify-content: space-between;
@@ -22,17 +22,16 @@
   }
 
   .Post-title {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
+    font-size: 2rem;
+    padding: .1rem;
   }
 
   .Post-title p {
     color: #333;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 300;
     margin-top: 5px;
-    padding: 0;
+    padding: 1rem;
   }
 
   a {
@@ -42,7 +41,7 @@
 
   .Post-desc p {
     color: #333;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 28px;
     margin: 0 auto;
     word-break: break-word;

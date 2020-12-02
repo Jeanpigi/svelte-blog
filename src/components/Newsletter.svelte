@@ -7,26 +7,25 @@
     color: rgba(0, 0, 0, 0.75);
     display: inline-block;
     font-feature-settings: "thum";
-    font-size: 14px;
-    height: 32px;
-    line-height: 32px;
+    font-size: 1.4rem;
+    height: 3.2rem;
+    line-height: 3.2rem;
     list-style: none;
     margin: 0;
     outline: 0;
     padding: 4px 12px;
     width: 100%;
-    box-sizing: border-box;
   }
 
   h4 {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   p {
     font-weight: 300;
     color: #333;
-    font-size: 15px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   form {
@@ -63,7 +62,7 @@
   }
 
   label {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 </style>
 

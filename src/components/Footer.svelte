@@ -2,38 +2,22 @@
   .Footer {
     background: #24292e;
     color: white;
-    padding: 1.5em 0;
-    margin: 2em 0 0 0;
-    font-size: 13px;
+    padding-top: 1.5rem;
+    margin-top: 0.2rem;
+    font-size: 1.3rem;
     font-weight: 300;
-  }
-
-  .Footer-container {
-    display: grid;
-    grid-template-columns: minmax(auto, 1024px);
-    justify-content: center;
-    align-items: center;
+    height: 6rem;
   }
 
   .Footer-content {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
     align-items: center;
   }
 
   .Footer-svelte {
     display: flex;
-    align-self: center;
-  }
-
-  .Footer-svelte img {
-    margin: 0 0 0 0.5em;
-  }
-
-  @media only screen and (max-width: 479px) {
-    .Footer-container {
-      grid-template-columns: minmax(auto, 320px);
-    }
+    justify-content: center;
   }
 </style>
 
@@ -42,7 +26,8 @@
     <div class="Footer-content">
       <div class="Footer-copy">Hecho con 💜 por 🐻 JbearP 🇨🇴</div>
       <div class="Footer-svelte">
-        Full Power by svelte <img src="svelte.png" alt="svelte" />
+        Full Power by svelte
+        <picture> <img src="svelte.png" alt="svelte" /> </picture>
       </div>
     </div>
   </div>

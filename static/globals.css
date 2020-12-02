@@ -1,53 +1,41 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	color: #333;
+  padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 0.5em 0;
-	font-weight: 400;
-	line-height: 1.2;
+html {
+  font-size: 62.5%;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 
-h1 {
-	font-size: 2em;
-}
 
 a {
 	color: inherit;
 }
 
-ul {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
 
 code {
   font-family: menlo, inconsolata, monospace;
-  font-size: calc(1em - 2px);
   color: #555;
   background-color: #f0f0f0;
-  padding: 0.2em 0.4em;
+  padding: 0.2rem 0.4rem;
   border-radius: 2px;
 }
 
 .content p {
   color: #333;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
   margin: 0 auto;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
   word-break: break-word;
   font-weight: 300;
 }
 .content h2 {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-weight: 500;
   color: #191a22;
 }
@@ -57,8 +45,8 @@ code {
 .content pre {
   background-color: #f9f9f9;
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
-  padding: 0.5em;
-  border-radius: 2px;
+  padding: 0.5rem;
+  border-radius: 2rem;
   overflow-x: auto;
 }
 .content pre code {
@@ -69,7 +57,7 @@ code {
   line-height: 1.5;
 }
 .content li {
-  margin: 0 0 0.5em 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .content iframe {
@@ -97,6 +85,6 @@ code {
 
 @media (min-width: 400px) {
 	body {
-		font-size: 16px;
+		font-size: 1.6rem;
 	}
 }

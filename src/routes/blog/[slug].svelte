@@ -37,17 +37,16 @@
 <style>
   h2 {
     color: #22215b;
-    font-size: 28px;
-    margin: 0;
-    padding: 0;
+    font-size: 2.2rem;
+    padding: .4rem;
   }
 
   .Post-title {
     color: #333;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 300;
-    margin-top: 5px;
-    padding: 0;
+    margin-top: .5rem;
+    padding: .2rem;
   }
 
   .date time,
@@ -55,7 +54,7 @@
     color: #594863;
   }
   .comments {
-    margin: 2em 0 0 0;
+    margin-top: .2rem;
   }
 </style>
 

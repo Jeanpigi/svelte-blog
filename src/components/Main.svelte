@@ -11,7 +11,7 @@
   }
 
   .Main-content {
-    margin: 2em 0 0 0;
+    margin: 1.2rem ;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 60px;

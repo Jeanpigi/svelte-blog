@@ -7,12 +7,15 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .About > p {
+    margin: 1rem;
+  }
   .About-content img {
     width: 150px;
     border-radius: 50%;
-    margin: 1em 2em 1em 0;
+    margin: 1rem;
   }
-
   @media only screen and (max-width: 479px) {
     .About-content {
       display: grid;
@@ -42,7 +45,9 @@
     programación, diseño, video juegos y tecnología.
   </p>
   <div class="About-content">
-    <img src="https://i.ibb.co/kxzzXdt/imagen.jpg" alt="imagen" border="0" />
+    <picture>
+      <img src="https://i.ibb.co/kxzzXdt/imagen.jpg" alt="imagen" border="0" />
+    </picture>
     <code>
       Especialista TIC para la Innovación Educativa | Ingeniero de sistemas |
       Frontend Developer.
