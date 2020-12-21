@@ -14,43 +14,11 @@
         SveltePractico
       </generator>
       <lastBuildDate>
-        Wed, 02 Dec 2020 04:43:31 GMT
+        Mon, 14 Dec 2020 15:55:53 GMT
       </lastBuildDate>
       <atom: link href="https://blog.jbearp.com/rss.xml" rel="selft" type="application/rss+xml" />
       <ttl>60</ttl>
       
-    <item>
-      <title>
-        <![CDATA[Cosas que debes saber sobre Tensor Flow Js]]>
-      </title>
-      <link>
-        https://blog.jbearp.com/blog/tensor-flow-js/
-      </link>
-      <description>
-        <![CDATA[ 
-
-Aprendizaje de máquina y la inteligencia artificial es un temá que vemos
-presente en nuestros días. por ejemplo cuando estamos escribiendo un correó
-electronico en gmail, Google nos va a sugerir palabras, nombres  o frases
-completas basadas en el aprendizaje de todo lo que hemos compartido con ellos.
-En el campo de la medicina ayuda a los doctores a identificar celulas anomalas
-en radiografias, otro caso es el uso reconocimiento de señas para darnos un idea
-del mensaje tratan de comunicar una  ]]>
-      </description>
-      <categoria>
-        <![CDATA[ null ]]>
-      </categoria>
-      <dc:creator>
-        <![CDATA[ JbearP ]]>
-      </dc:creator>
-      <pubDate>
-        Wed, 23 Sep 2020 18:34:29 GMT
-      </pubDate>
-      <content:encoded>
-        <![CDATA[ <p></p><p>Aprendizaje de máquina y la inteligencia artificial es un temá que vemos presente en nuestros días. por ejemplo cuando estamos escribiendo un correó electronico en gmail, Google nos va a sugerir palabras, nombres  o frases completas basadas en el aprendizaje de todo lo que hemos compartido con ellos. En el campo de la medicina ayuda a los doctores a identificar celulas anomalas en radiografias, otro caso es el uso reconocimiento de señas para darnos un idea del mensaje tratan de comunicar una persona muda, otro ejemplo es en el campo de los automoviles autonomos. Cómo hemos visto tiene bastantes implementaciones.</p><p>Existe una frase que me parece muy correcta de <em><strong>Mark cuban</strong></em> que dice "la inteligencia artificial, aprendizaje de máquina o como le quieras denominar, lo que sea que estés haciendo, si no lo entiendes, apréndelo. Porque de otra manera serás un dinosaurio en los siguientes 3 años".</p><p>Aprendizaje de máquina  es la parte de la inteligencia artificial que permite a una computadora aprender sin ser explicitamente programada.</p><p><strong>Redes neuronales</strong></p><p>Lo primero es conocer cómo funciona el cerebro humano, recibe inputs entradas de información que se convierte y pasan por millenes de nueronas y en base a ellas arroja un resultado. Busca el aprendizaje de máquina y la inteligencia artificial es transforma ese conocimiento en ceros y uno para obtener algún estimulo, basicamente lo que hace es replicar el funcionamiento de cerebro humano.</p><p>Ahora bien el modelo del cerebro humano se divide en  neuronas las cuales  tienen unos dendritos que se encargan de recibir la información y llevarla  hacia el núcleo  dónde esa información es procesada  y pasa con por un canal  denominado axón que al final de este llegan a las terminales las cuáles se conectan con otras  neuronas. Este nos ayuda a modelar un cerebro por que dependiendo del nivel de activación de la neurona se transmitira a otras neuronas. Esto puede variar dependiendo de los procesos que se esten ejecutando y hacia que neuronas se dirige ese proceso.</p><p>Sinapsis conexión de una neurona con la siguiente, en promedio cada neurona llega a tener hasta <em>siete mil</em> conexiones con otras que esten en su área del cerebro, algo importante a tener encuenta es que es cada conexion se va reforzando cada vez que repites esa actividad. este proceso va escalando y esto sucede por que aproximadamente nuestro cerebro cuenta con <strong>84,000,000,000</strong> de neuronas mientras que se calcula que <strong>588,000,000,000,000</strong> de sinapsis se realizan en el cerebro. </p><p>Desde eso, se ha intentado modelar el funcionamiento  y se logro gracias a las matematicas,  se creo un percentron donde se tenian las entradas y los pesos que representaban la fuerza de la conexión de los dentritos hacia su núcleo, los bias que es donde se procesa y decia se la señal  iba a percistir o enviar  hacia las salidas</p> ]]>
-      </content:encoded>
-    </item>
-    
     <item>
       <title>
         <![CDATA[Brave Browser]]>
@@ -72,30 +40,6 @@ del mensaje tratan de comunicar una  ]]>
       </pubDate>
       <content:encoded>
         <![CDATA[ <p></p><p>El terreno de la navegación por internet está dominado por los navegadores Chrome, Firefox, Opera, Safari, Edge los cuales son más populares y usados en el mundo, sin embargo hay opciones que están a la par, o incluso superar a los anteriormente mencionados con ciertas mejoras y ese es el caso de Brave.</p><p>Prácticamente, Brave, es un navegador con características muy interesantes e útiles. Esté Browser está creado bajo la plataforma Chromium, el cual es un proyecto abierto por Google y en el cual se base su navegador, y esto es una gran ventaja debido a que permite instalar todas las extensiones, por lo cual no te tienes que preocupar por aquellas extensiones que tengas en tu Chrome.</p><p>Brave es de uso gratuito y tiene varios elementos que le permite posicionarse con el resto de la competencia.</p><p><strong>Seguridad</strong></p><p>Brave resalta por poseer un gran abanico de opciones de seguridad que muestra todo lo que se encuentra bloqueado o se puede hacer en la página abierta. Además permite controlar configuraciones de manejo de protección de puntos de seguimiento, conexiones HTTPS, bloqueo de comandos, reconocimiento de dispositivos y cookies.</p><p><strong>Velocidad de carga</strong></p><p>Brave ofrece un peso de 1.24MB, lo que hace que su velocidad de carga sea superior a la de otros navegadores como Chrome,  y esto se debe a que no permite anuncio y rastreadores de estos, lo que ayuda a que los sitios web carguen hasta ocho veces más rápido.</p><p><strong>Apariencia y funcionalidad</strong></p><p>Su estética es similar a Browser de Google, con un toque único y gustoso. Además su versatilidad puede ser la funcionalidad más fuerte. El equipo de desarrolladores mantienen mejorando lo y aplicando cambios como el popular modo oscuro, brindando una ventaja competitiva.</p><p>Como te he contado, si estás buscando una alternativa parecida a Chrome, Brave es una de las mejores propuestas del mercado. Otro plus es que podemos instalarlo tanto en PC como en móvil.</p> ]]>
-      </content:encoded>
-    </item>
-    
-    <item>
-      <title>
-        <![CDATA[First Travel]]>
-      </title>
-      <link>
-        https://blog.jbearp.com/blog/first-travel/
-      </link>
-      <description>
-        <![CDATA[ Historia de un viajero en el tiempo. ]]>
-      </description>
-      <categoria>
-        <![CDATA[ history ]]>
-      </categoria>
-      <dc:creator>
-        <![CDATA[ JbearP ]]>
-      </dc:creator>
-      <pubDate>
-        Thu, 24 Sep 2020 01:51:58 GMT
-      </pubDate>
-      <content:encoded>
-        <![CDATA[ <p></p><p><strong>El 4 de Febrero del 2017</strong>, aparece un hombre desorientado en las calles de Bogota Colombia. Tenía un atuendo elegante, aunque muy anticuado para la época. La persona se veía confundida y asustada, no sabía qué hacer, así que decidió deambular por un rato en la ciudad, la cual no era cómo él la recordaba. En un momento un policía que se encontraba en el área, comenzó a sentir curiosidad por el tipo, en especial por la apariencia.</p><p>El oficial se acerca para ayudarlo, cuando el hombre le pregunta por una calle que había dejado de existir hace bastante tiempo.  El policía piensa que el sujeto esta delirando y decide solicitarle los documentos de identificación,  luego el oficial no podia creer lo que leia en él ID del hombre, dejándolo atónito.</p><p>El documento estaba expedido en la fecha de 1947, el sujeto se llamaba <strong>Julio Manrrique</strong>, sin embargo la identificación se encontraba en perfecto estado. El policía decide comunicarse con la central de policía y preguntar por la información del señor <strong>Julio</strong>, donde se llevo otra sorpresa, pues al parecer los datos del hombre eran auténticos y le comentan al oficial que existe un hombre desaparecido con esos rasgos.</p><p>La policía decide llevar al hombre a un hospital psiquiátrico y esto debido a que el hombre realmente se encontraba confundido. En ese hospital, sostuvo  una entrevista con el psiquiatra a quien le aseguró no saber qué había pasado.  Él  le explica al especialista que nació en Bogota, pero que la encuentra irreconcilable, lo veía totalmente diferente, al igual que a las personas.  Todos se visten de manera muy distinta, las calles son más amplias, con demasiados vehículos, entre otras cosas.</p><p>Además le comenta que lo último que recuerda es haber tomado fotografías, haber ido a dormir y despertar aquí en esté lugar que para él era desconocido.</p><p>"Era de día y quise dar un paseo por la ciudad, tomé mi cámara, luego quise tomar unas fotos a los alrededores por donde iba paseando, al regresar a casa, también tome unas fotos más a mi familia y a mi casa, sin embargo vi algo en el cielo, no podia distinguir que era exactamente, así que decidí tomarle una foto también, es difícil de explicar lo que estaba viendo, es mejor revelar las fotos de mi cámara" dijo Julio Manrrique al psiquiatra  Jose Luis.</p><p>Por supuesto, nadie creía su historia, era demasiado loca, pero de igual manera se ordenó revelar las fotografías de la cámara para buscar mayor información del sujeto y esclarecer quién era exactamente, sin embargo se encontraron con un problema, la técnica de revelado se había dejado de practicar hacía unos años, por lo que tuvieron que contactar con un experto en la materia.</p><p>Así fue como el experto afirmo estar sorprendido por el buen estado del rollo y la cámara. Los elementos se encontraban intactos a pesar de que se había dejado de fabricar hacia 30 años. Después de haber revelado las fotos, encontraron algo interesante, había un retrato de una calle de Bogotá con una ambientación diferente, en la cual se encontraba Julio con una joven, ambos vestían atuendos que no se usan actualmente.</p><p>Después de ver las sorprendentes imágenes y terminar de hablar con él psiquiatra, Julio desaparece. No existe una explicación del como.  Él se había dirigido a al cuarto y no se le vio salir. Luego de la desaparición, se decide abrir una investigación para comprobar la identidad de Julio, en la misma se verificó que un hombre del mismo nombre y apariencia había desaparecido.</p><p>Aunque por el momento no se ha logrado esclarecer el misterio, lo único que se sabe, es que sí existió un hombre con ese nombre y los documentos son reales. </p> ]]>
       </content:encoded>
     </item>
     
