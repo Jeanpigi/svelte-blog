@@ -10,6 +10,7 @@
 
   .About > p {
     margin: 1rem;
+    font-size: 1.4rem;
   }
   .About-content img {
     width: 150px;
