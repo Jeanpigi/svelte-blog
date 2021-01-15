@@ -8,7 +8,7 @@
     align-items: center;
   }
 
-  .About > p {
+  .About > p, span {
     margin: 1rem;
     font-size: 1.4rem;
   }
@@ -24,6 +24,7 @@
 
     code {
       text-align: center;
+      font-size: 1.1rem;
     }
   }
 </style>
