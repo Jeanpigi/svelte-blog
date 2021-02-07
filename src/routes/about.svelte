@@ -2,21 +2,28 @@
   .About {
     text-align: justify;
   }
+
   .About-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .About > p, span {
+  .About > p {
     margin: 1rem;
     font-size: 1.4rem;
   }
+
   .About-content img {
     width: 150px;
     border-radius: 50%;
     margin: 1rem;
   }
+
+  code {
+    font-size: 1.5rem;
+  }
+
   @media only screen and (max-width: 479px) {
     .About-content {
       display: grid;
@@ -69,9 +76,9 @@
     <li>Sistematizador de Proyectos</li>
     <li>Auxiliar IT</li>
   </p>
-  <span>
+  <p>
     🌱 Actualmente estoy aprendiendo sobre Deno, TypeScript, Python y Go.
-  </span>
+  </p>
   <p>
     📫 Cómo contactarme: Actualmente, busco nuevas oportunidades que puedan
     ayudarme a mejorar como persona y profesional. Ya sea que necesites
