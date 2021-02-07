@@ -113,6 +113,15 @@
               <i class="fab fa-facebook"></i>
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCXNcM9LiqXfXgKU8HIwg9Xg"
+              target="_blank"
+              rel="noreferrer"
+              on:click={analyticsTracking('youtube')}>
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
