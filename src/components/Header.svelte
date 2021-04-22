@@ -11,7 +11,7 @@
 
   .Header-container {
     display: grid;
-    grid-template-columns: minmax(auto, 1024px);
+    grid-template-columns: minmax(auto,  320px);
     justify-content: center;
     align-items: center;
   }
@@ -69,12 +69,6 @@
   .Header-social i {
     width: 20px;
   }
-
-  @media only screen and (max-width: 479px) {
-    .Header-container {
-      grid-template-columns: minmax(auto, 320px);
-    }
-  }
 </style>
 
 <header class="Header">
@@ -92,7 +86,7 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('github')}>
-              <i class="fab fa-github"></i>
+              <i aria-hidden class="fab fa-github" />
             </a>
           </li>
           <li>
@@ -101,7 +95,7 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('instagram')}>
-              <i class="fab fa-instagram"></i>
+              <i aria-hidden class="fab fa-instagram" />
             </a>
           </li>
           <li>
@@ -110,7 +104,7 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('facebook')}>
-              <i class="fab fa-facebook"></i>
+              <i aria-hidden class="fab fa-facebook" />
             </a>
           </li>
           <li>
@@ -119,7 +113,7 @@
               target="_blank"
               rel="noreferrer"
               on:click={analyticsTracking('youtube')}>
-              <i class="fab fa-youtube"></i>
+              <i aria-hidden class="fab fa-youtube" />
             </a>
           </li>
         </ul>

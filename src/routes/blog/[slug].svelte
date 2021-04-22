@@ -34,30 +34,6 @@
   });
 </script>
 
-<style>
-  h2 {
-    color: #22215b;
-    font-size: 2.2rem;
-    padding: .4rem;
-  }
-
-  .Post-title {
-    color: #333;
-    font-size: 1.4rem;
-    font-weight: 300;
-    margin-top: .5rem;
-    padding: .2rem;
-  }
-
-  .date time,
-  span {
-    color: #594863;
-  }
-  .comments {
-    margin-top: .2rem;
-  }
-</style>
-
 <svelte:head>
   <title>{post.title}</title>
 </svelte:head>

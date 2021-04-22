@@ -14,11 +14,35 @@
         SveltePractico
       </generator>
       <lastBuildDate>
-        Fri, 12 Feb 2021 03:09:41 GMT
+        Thu, 22 Apr 2021 18:39:01 GMT
       </lastBuildDate>
       <atom: link href="https://blog.jbearp.com/rss.xml" rel="selft" type="application/rss+xml" />
       <ttl>60</ttl>
       
+    <item>
+      <title>
+        <![CDATA[Qué es la Deep Web?]]>
+      </title>
+      <link>
+        https://blog.jbearp.com/blog/que-es-la-deep-web/
+      </link>
+      <description>
+        <![CDATA[ La Deep Web es un lugar que posiblemente has escuchado , sin embargo no es muy conocido. Hoy te voy a contar qué es y cómo se puede entrar de una manera sencilla. ]]>
+      </description>
+      <categoria>
+        <![CDATA[ tech ]]>
+      </categoria>
+      <dc:creator>
+        <![CDATA[ JbearP ]]>
+      </dc:creator>
+      <pubDate>
+        Mon, 19 Apr 2021 18:34:18 GMT
+      </pubDate>
+      <content:encoded>
+        <![CDATA[ <p></p><p>Cuando se habla de internet, tenemos claro que consiste en ordenadores y servidores conectados entre sí por todo el mundo. </p><p>Estos son fácilmente asequibles mediante los motores de búsqueda como Google, Yahoo, Bing, Baidu, Duck Duck go, entre otros, los cuáles se encargan de indexar  las páginas web. </p><p>Sin embargo, existen servidores que permanecen ocultos  de estos motores, ya sea porque no les interesan o simplemente los bloquean por otros motivos,  en cualquier caso, estos servicios o sitios que no son indexados por los motores engloban la conocida Deep Web.</p><p>Hablando técnicamente, lo que se denomina Deep Web, (También conocida  como internet invisible o internet oculta), es todo el contenido como páginas privadas, sitios web, bases de datos, otras páginas online que no es indexado por los buscadores.  En este lado de internet, existe un espacio que comúnmente los usuarios confunden con la Deep Web y es la Dark Web, donde se puede encontrar y comprar armas, medicamentos, drogas, sicarios, hackers, cuentas, pasaportes, entre otras cosas.  Sin embargo su acceso es complicado y se basa en redes que en la mayoría de ocasiones requieren una invitación previa para poder visualizar su contenido.</p><p>Siguiendo la historia de la Deep Web, esta nace en el 2001 y es acuñado por el experto Michael Bergman, al momento de explicar cómo accedemos a internet a través de los buscadores.  Básicamente, explica que  los motores de búsqueda indexan el contenido y  luego muestra los resultados al momento de escribir algo en el buscador. </p><p>Igualmente hay que tener en cuenta que existen sitios web que deciden bloquear la indexación de motores de búsqueda, por lo que no aparecen en ellos así los busques.  Sólo podrán acceder a ellos si conoces la dirección IP exacta del sitio.</p><p>La Deep Web se divide en dos, el primero es el contenido que se puede acceder simplemente indicando el nombre de dominio o dirección IP  pero no aparece en los buscadores. Y el segundo  es el contenido que es inaccesible o simplemente es más complicado porque se bloquea el acceso mediante usuario y contraseña o otras formas.</p><p></p><p><strong>Cómo entrar en la Deep Web</strong></p><p>Si se quiere acceder al contenido de la Deep Web, solo basta con tener un navegador web normal (Google Chrome, Firefox, Safari,  Microsoft Edge), el mismo que se usa para leer este artículo o para buscar. La cuestión es conocer si ese contenido hace parte de la Deep Web.</p><p>Otra forma y posiblemente la más conocida es mediante un navegador compatible con la tecnología Tor, como <a href="https://www.torproject.org/">Tor Browser</a>, basado en <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>, o <a href="https://brave.com/">Brave</a>, estos browsers sirven tanto para acceder a la web tradicional  mediante enlaces .onion de Tor.</p><p></p><p><strong>Cómo encontrar contenido en la Deep Web</strong></p><p>La forma más conocida de encontrar contenido es mediante <a href="https://thehiddenwiki.org/">The Hidden Wiki</a>, un sitio web que ofrece una compilación de enlaces .onion asociados a la Deep Web. En él se encontrarán buscadores, mercados de criptomonedas, hospedajes para web o imágenes, mensajería, foros, servicios de correo electrónico anónimo. Igualmente cuenta con links a foros y tiendas de drogas.</p><p>Otro portal interesante para visitar  es <a href="https://deepweblinks.net/">Deep Web Links</a> el cual muestra buscadores, navegadores web compatibles con Tor, páginas .onion para hospedar contenido, redes sociales anónimas, foros, contenido relacionado con Bitcoin, directorios, entre otros. </p><p>Para finalizar, es importante recordar que  si se quiere acceder a determinado contenido de la Deep Web es necesario tomar precauciones. Las mimas que tomamos al ingresar a páginas web a las cuales nunca hemos entrado. Les recomiendo no facilitar ninguna información personal en los formularios que se encuentren, o ningún foro o chat, así mismo evitar abrir archivos o descargarlos sin haberlos analizado con anterioridad.</p> ]]>
+      </content:encoded>
+    </item>
+    
     <item>
       <title>
         <![CDATA[Dark Secret]]>

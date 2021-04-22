@@ -35,7 +35,6 @@
   }
 
   a {
-    text-decoration: none;
     color: #22215b;
   }
 
@@ -47,9 +46,11 @@
     word-break: break-word;
   }
 
-  .dot {
+  span {
+    font-size: 1.6rem;
     font-weight: 700;
   }
+
 </style>
 
 <div class="Post-item">
@@ -66,7 +67,7 @@
           <time datatime={post.createdAt}>
             📆 {formatIsoTime(post.createdAt)}
           </time>
-          <span class="dot">.</span>
+          <span>.</span>
           <span>{readingTime(post.html)}</span>
         </p>
       </div>

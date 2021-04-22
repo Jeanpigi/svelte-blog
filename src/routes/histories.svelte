@@ -14,14 +14,6 @@
   const filterPost = posts.filter((post) => post.tag === "history");
 </script>
 
-<style>
-  .Posts {
-    display: grid;
-    justify-content: space-between;
-    grid-gap: 30px;
-    grid-template-columns: 1fr;
-  }
-</style>
 
 <svelte:head>
   <title>Histories</title>
