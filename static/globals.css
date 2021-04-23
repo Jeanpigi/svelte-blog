@@ -88,10 +88,3 @@ code {
   overflow: hidden;
   margin: 0.4em 0 1.6em;
 }
-
-.Posts {
-  display: grid;
-  justify-content: space-between;
-  grid-gap: 30px;
-  grid-template-columns: 1fr;
-}

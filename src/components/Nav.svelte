@@ -11,7 +11,7 @@
   }
   .Nav-container {
     display: grid;
-    grid-template-columns: minmax(auto, 1024px);
+    grid-template-columns: minmax(auto, 320px);
     justify-content: center;
     align-items: center;
   }
@@ -67,9 +67,9 @@
     color: rgba(25, 26, 34, 1);
   }
 
-  @media only screen and (max-width: 479px) {
+  @media only screen and (min-width: 1024px) {
     .Nav-container {
-      grid-template-columns: minmax(auto, 320px);
+      grid-template-columns: minmax(auto, 1024px);
     }
   }
 </style>

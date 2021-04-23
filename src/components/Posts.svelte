@@ -24,18 +24,22 @@
   .Post-title {
     font-size: 1.6rem;
     padding: .1rem;
+    text-align: center;
   }
 
-  .Post-title p {
+  .Post-date {
     color: #333;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 5px;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
   }
 
   a {
     color: #22215b;
+    text-decoration: none;
   }
 
   .Post-desc p {
@@ -51,6 +55,11 @@
     font-weight: 700;
   }
 
+  @media only screen and (min-width: 1024px) {
+    .Post-title {
+      text-align: unset;
+    }
+  }
 </style>
 
 <div class="Post-item">
@@ -63,13 +72,12 @@
             {post.title}
           </a>
         </h2>
-        <p>
+        <div class="Post-date">
           <time datatime={post.createdAt}>
             📆 {formatIsoTime(post.createdAt)}
           </time>
-          <span>.</span>
           <span>{readingTime(post.html)}</span>
-        </p>
+        </div>
       </div>
       <div class="Post-tags" />
       <div class="Post-desc">

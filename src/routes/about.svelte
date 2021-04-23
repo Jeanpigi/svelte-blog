@@ -9,9 +9,17 @@
     align-items: center;
   }
 
+  .About > h1 {
+    text-align: center;
+  }
+
   .About > p {
     margin: 1rem;
     font-size: 1.4rem;
+  }
+
+  .About-content picture {
+    margin: auto;
   }
 
   .About-content img {

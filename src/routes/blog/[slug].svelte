@@ -34,6 +34,25 @@
   });
 </script>
 
+<style>
+  .Post-title {
+    font-size: 1.6rem;
+    padding: .1rem;
+    text-align: center;
+  }
+
+  .Post-date {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+</style>
+
 <svelte:head>
   <title>{post.title}</title>
 </svelte:head>
@@ -42,10 +61,10 @@
   <div class="Post-title">
     <h2>{post.title}</h2>
   </div>
-  <p class="date">
+  <div class="Post-date">
     <time datetime={post.createdAt}> 📆 {formatIsoTime(post.createdAt)}</time>
     <span>{readingTime(post.html)}</span>
-  </p>
+  </div>
   <div class="content">
     {@html post.html}
   </div>

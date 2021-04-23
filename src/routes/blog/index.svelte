@@ -12,12 +12,27 @@
   export let posts;
 </script>
 
+<style>
+
+.Post-blog > h1 {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.Post-blog > ul > li {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+</style>
+
 <svelte:head>
   <title>Blog</title>
 </svelte:head>
 
-<div>
-  <h1>Recent posts</h1>
+<div class="Post-blog">
+  <h1>Publicaciones recientes</h1>
 
   <ul>
     {#each posts as post}

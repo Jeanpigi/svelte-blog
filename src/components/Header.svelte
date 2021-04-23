@@ -69,6 +69,12 @@
   .Header-social i {
     width: 20px;
   }
+
+  @media only screen and (min-width: 1024px) {
+    .Header-container {
+      grid-template-columns: minmax(auto, 1024px);
+    }
+  }
 </style>
 
 <header class="Header">
