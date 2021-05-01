@@ -28,6 +28,15 @@
     margin: 1rem;
   }
 
+  .About > span {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+
+  .About > span > a {
+    font-size: 2.3rem;
+  }
+
   code {
     font-size: 1.5rem;
   }
@@ -92,4 +101,8 @@
     ayudarme a mejorar como persona y profesional. Ya sea que necesites
     contactarme a través de mi red social.
   </p>
+  <span>
+    <strong>Para conocer un poco más sobre mi trabajo te dejo el enlace a mi otro sitio web, solo debes dar click en el siguiente icono:</strong>
+    <a href="https://jeanpigi.vercel.app/"><i class="fas fa-globe"></i></a>
+  </span>
 </div>

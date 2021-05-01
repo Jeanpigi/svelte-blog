@@ -32,10 +32,10 @@
   <meta name="twitter:title" content="Jean Pierre Giovanni" />
   <meta name="twitter:description" content="Blog de JbearP" />
 
-  <meta name="og:title" content="Jean Pierre Giovanni" />
+  <meta name="og:title" content="Jbearp" />
   <meta name="og:description" content="Blog de JbearP" />
   <meta name="og:url" content="https://blog.jbearp.com" />
-  <meta name="og:site_name" content="Jean Pierre Giovanni" />
+  <meta name="og:site_name" content="Jbearp" />
   <meta name="og:locate" content="es_ES" />
   <meta name="og:type" content="article" />
   <meta name="fb:app_id" content="" />
