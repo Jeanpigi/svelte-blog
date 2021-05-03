@@ -4,7 +4,7 @@
   }
 
   .About-content {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
   }
@@ -29,26 +29,34 @@
   }
 
   .About > span {
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding: 2rem 0;
   }
 
   .About > span > a {
-    font-size: 2.3rem;
+    font-size: 1.4rem;
   }
 
   code {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
-  @media only screen and (max-width: 479px) {
+  @media only screen and (min-width: 1023px) {
     .About-content {
-      display: grid;
+      display: flex;
+    }
+
+    .About > span {
+      font-size: 2rem;
+    }
+
+    .About > span > a {
+      font-size: 2.3rem;
     }
 
     code {
       text-align: center;
-      font-size: 1.1rem;
+      font-size: 1.5rem;
     }
   }
 </style>
@@ -86,23 +94,8 @@
     a mis logros y trabajos implementados, además de los certificados obtenidos de
     la plataforma Platzi.
   </p>
-  <p>
-    <strong>Trayectoria: </strong>
-    <li>Desarrollador frontend con tres años de experiencia</li>
-    <li>Analista de Proyectos Educativos</li>
-    <li>Sistematizador de Proyectos</li>
-    <li>Auxiliar IT</li>
-  </p>
-  <p>
-    🌱 Actualmente estoy aprendiendo sobre Deno, TypeScript, Python y Go.
-  </p>
-  <p>
-    📫 Cómo contactarme: Actualmente, busco nuevas oportunidades que puedan
-    ayudarme a mejorar como persona y profesional. Ya sea que necesites
-    contactarme a través de mi red social.
-  </p>
   <span>
-    <strong>Para conocer un poco más sobre mi trabajo te dejo el enlace a mi otro sitio web, solo debes dar click en el siguiente icono:</strong>
+    <strong>Para conocer un poco más sobre mi trabajo te dejo el siguiente enlace:</strong>
     <a href="https://jeanpigi.vercel.app/"><i class="fas fa-globe"></i></a>
   </span>
 </div>
