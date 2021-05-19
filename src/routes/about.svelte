@@ -4,8 +4,8 @@
   }
 
   .About-content {
-    display: grid;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -15,7 +15,7 @@
 
   .About > p {
     margin: 1rem;
-    font-size: 1.4rem;
+    font-size: clamp(1.4rem, 2.5vw 1.8rem);
   }
 
   .About-content picture {
@@ -29,35 +29,22 @@
   }
 
   .About > span {
-    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
     padding: 2rem 0;
   }
 
   .About > span > a {
-    font-size: 1.4rem;
+    font-size: clamp(1.4rem, 2.5vw, 2.3rem);
   }
 
-  code {
-    font-size: 1.1rem;
-  }
-
-  @media only screen and (min-width: 1023px) {
-    .About-content {
-      display: flex;
-    }
-
-    .About > span {
-      font-size: 2rem;
-    }
-
-    .About > span > a {
-      font-size: 2.3rem;
-    }
-
-    code {
-      text-align: center;
-      font-size: 1.5rem;
-    }
+  .About-content > code {
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    text-align: center;
+    font-family: menlo, inconsolata, monospace;
+    color: #555;
+    background-color: #f0f0f0;
+    padding: 0.2rem 0.4rem;
+    border-radius: 2px;
   }
 </style>
 
@@ -83,8 +70,7 @@
       <img src="https://i.ibb.co/kxzzXdt/imagen.jpg" alt="imagen" border="0" />
     </picture>
     <code>
-      Especialista TIC para la Innovación Educativa | Ingeniero de sistemas |
-      Frontend Developer.
+      Freelancer
     </code>
   </div>
   <p>

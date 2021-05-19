@@ -34,41 +34,43 @@
   });
 </script>
 
-<style>
-  .Post-title {
-    font-size: 1.6rem;
-    padding: .1rem;
-    text-align: center;
-  }
-
-  .Post-date {
-    color: #333;
-    font-size: 1.3rem;
-    font-weight: 300;
-    margin-top: 5px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-  }
-
-</style>
-
 <svelte:head>
   <title>{post.title}</title>
 </svelte:head>
 
-<div class="Post">
-  <div class="Post-title">
-    <h2>{post.title}</h2>
-  </div>
-  <div class="Post-date">
-    <time datetime={post.createdAt}> 📆 {formatIsoTime(post.createdAt)}</time>
-    <span>{readingTime(post.html)}</span>
-  </div>
-  <div class="content">
-    {@html post.html}
+<div class="Posts">
+  <div class="Post-content">
+    <div class="Post-title">
+      <h2>{post.title}</h2>
+    </div>
+    <div class="Post-date">
+      <time datetime={post.createdAt}> 📆 {formatIsoTime(post.createdAt)}</time>
+      <span>{readingTime(post.html)}</span>
+    </div>
+    <div class="content">
+      {@html post.html}
+    </div>
   </div>
   <div class="comments">
-    <div id="disqus_thread" />
-  </div>
+      <div id="disqus_thread" />
+    </div>
 </div>
+
+<style>
+  .Post-content {
+    display: grid;
+    justify-content: center;
+    margin: 0 2rem;
+    font-size: clamp(1.4rem, 2.5vw, 1.7rem);
+  }
+
+  .Post-title, .Post-date {
+    text-align: center;
+  }
+  .content {
+    padding: 2rem 0;
+    text-align: justify;
+    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+    font-weight: 200;
+  }
+</style>

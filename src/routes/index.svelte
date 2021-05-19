@@ -13,15 +13,6 @@
   export let posts;
 </script>
 
-<style>
-  .Posts {
-    display: grid;
-    justify-content: space-between;
-    grid-gap: 15px;
-    grid-template-columns: 1fr;
-  }
-</style>
-
 <svelte:head>
   <title>JbearP Blog</title>
   <meta name="description" content="Blog de JbearP" />
@@ -42,13 +33,12 @@
 
   <meta
     name="google-site-verification"
-    content="fgZgQcazxMOVgK0dDRQMa6MJD_0H4_SVKy1pcg-MzT0" />
+    content="fgZgQcazxMOVgK0dDRQMa6MJD_0H4_SVKy1pcg-MzT0"
+  />
 </svelte:head>
 
-<div class="Home">
-  <div class="Posts">
-    {#each posts as post}
-      <Post {post} />
-    {/each}
-  </div>
+<div class="Posts">
+  {#each posts as post}
+    <Post {post} />
+  {/each}
 </div>

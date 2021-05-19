@@ -18,14 +18,12 @@
   <title>Technology</title>
 </svelte:head>
 
-<div class="Tech">
-  <div class="Posts">
-    {#if filterPost.length >= 1}
-      {#each filterPost as post}
-        <Post {post} />
-      {/each}
-    {:else}
-      <p>Lo sentimos no hay Resultados...</p>
-    {/if}
-  </div>
+<div class="Posts">
+  {#if filterPost.length >= 1}
+    {#each filterPost as post}
+      <Post {post} />
+    {/each}
+  {:else}
+    <p>Lo sentimos no hay Resultados...</p>
+  {/if}
 </div>

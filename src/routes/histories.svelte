@@ -14,19 +14,16 @@
   const filterPost = posts.filter((post) => post.tag === "history");
 </script>
 
-
 <svelte:head>
   <title>Histories</title>
 </svelte:head>
 
-<div class="Histories">
-  <div class="Posts">
-    {#if filterPost.length >= 1}
-      {#each filterPost as post}
-        <Post {post} />
-      {/each}
-    {:else}
-      <p>Lo sentimos no hay Resultados...</p>
-    {/if}
-  </div>
+<div class="Posts">
+  {#if filterPost.length >= 1}
+    {#each filterPost as post}
+      <Post {post} />
+    {/each}
+  {:else}
+    <p>Lo sentimos no hay Resultados...</p>
+  {/if}
 </div>

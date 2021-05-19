@@ -23,6 +23,7 @@
   font-size: 1.6rem;
   font-weight: 300;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 </style>

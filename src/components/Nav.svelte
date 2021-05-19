@@ -11,7 +11,6 @@
   }
   .Nav-container {
     display: grid;
-    grid-template-columns: minmax(auto, 320px);
     justify-content: center;
     align-items: center;
   }
@@ -65,12 +64,6 @@
 
   a:hover {
     color: rgba(25, 26, 34, 1);
-  }
-
-  @media only screen and (min-width: 1024px) {
-    .Nav-container {
-      grid-template-columns: minmax(auto, 1024px);
-    }
   }
 </style>
 

@@ -18,14 +18,16 @@
   }
 
   h4 {
-    font-size: 1.6rem;
+    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+    text-align: center;
   }
 
   p {
     font-weight: 300;
     color: #333;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+    margin: 1rem 0;
+    text-align: justify;
   }
 
   form {
@@ -68,7 +70,7 @@
 
 <div class="Newsletter">
   <h4>NEWSLETTER</h4>
-  <p>Recibe las últimas novedades sobre frontend y tecnologia en tu correo</p>
+  <p>Recibe las últimas novedades sobre frontend y tecnologia en tu correo.</p>
   <form
     action="https://tinyletter.com/jeanpierre666"
     method="post"
