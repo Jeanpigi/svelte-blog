@@ -57,6 +57,11 @@
 </div>
 
 <style>
+  .Posts {
+    display: grid;
+    grid-gap: 8rem;
+    margin: 1rem;
+  }
   .Post-content {
     display: grid;
     justify-content: center;
@@ -71,6 +76,11 @@
     padding: 2rem 0;
     text-align: justify;
     font-size: clamp(1.3rem, 2.5vw, 1.6rem);
-    font-weight: 200;
+    font-weight: 300;
+    line-height: 2.2rem;
   }
+
+  .content p {
+  padding: 1rem 0;
+}
 </style>

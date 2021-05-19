@@ -14,7 +14,7 @@
 
 <style>
 
-.Post-blog > h1 {
+.Post-blog h1 {
   padding: 1rem 0;
   text-align: center;
 }

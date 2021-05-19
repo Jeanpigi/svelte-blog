@@ -47,7 +47,7 @@
     display: flex;
     flex-direction: column;
   }
-  a {
+  .Post-title a {
     color: #22215b;
     text-decoration: none;
   }
@@ -57,14 +57,14 @@
     font-size: clamp(1.3rem, 2.5vw, 1.6rem);
   }
 
-  span {
+  .Post-date span {
     font-size: clamp(1.3rem, 2.5vw, 1.6rem);
     font-weight: 700;
   }
 
   @media only screen and (min-width: 1023px) {
     .Post-desc {
-      margin: 0 18rem;
+      margin: 0 1.8rem;
     }
   }
 </style>

@@ -10,12 +10,4 @@ html {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.Posts {
-  display: grid;
-  grid-gap: 8rem;
-  margin: 1rem;
-}
 
-.content p {
-  padding: 1rem 0;
-}

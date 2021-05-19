@@ -5,48 +5,6 @@
   const dev = process.env.NODE_ENV === "development";
 </script>
 
-<style>
-  .Error404 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .Error404-image figure {
-    margin: 0;
-    padding: 0;
-    text-align: right;
-  }
-
-  .Error404-image img {
-    width: 250px;
-    margin: 2em 0 0 0;
-    transform: translateY(0px);
-    animation: float 8s ease-in-out infinite;
-  }
-
-  @keyframes float {
-    0% {
-      transform: translateY(0px);
-    }
-    50% {
-      transform: translateY(-40px);
-    }
-    100% {
-      transform: translateY(0px);
-    }
-  }
-  h1 {
-    font-size: clamp(2.8em, 2.5vw, 4rem);
-    font-weight: 700;
-    margin: 0 0 0.5em 0;
-  }
-
-  p {
-    margin: 1em auto;
-  }
-</style>
-
 <svelte:head>
   <title>{status}</title>
 </svelte:head>
@@ -64,7 +22,51 @@
       <img
         src="https://i.ibb.co/JmMKm2M/Ilustracio-n-sin-ti-tulo-4.png"
         alt="error404"
-        border="0" />
+        border="0"
+      />
     </figure>
   </div>
 </div>
+
+<style>
+  .Error404 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Error404-image figure {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+
+  .Error404-image img {
+    width: 250px;
+    margin: 2em 0 0 0;
+    transform: translateY(0px);
+    animation: float 8s ease-in-out infinite;
+  }
+
+  .Error404-message h1 {
+    font-size: clamp(2.8em, 2.5vw, 4rem);
+    font-weight: 700;
+    margin: 0 0 0.5em 0;
+  }
+
+  .Error404-message p {
+    margin: 1em auto;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+</style>

@@ -1,3 +1,15 @@
+<footer class="Footer">
+  <div class="Footer-container">
+    <div class="Footer-content">
+      <div class="Footer-copy">Hecho con 💜 por 🐻 JbearP 🇨🇴</div>
+      <div class="Footer-svelte">
+        Full Power by svelte
+        <picture> <img src="svelte.png" alt="svelte" /> </picture>
+      </div>
+    </div>
+  </div>
+</footer>
+
 <style>
   .Footer {
     background: #24292e;
@@ -20,15 +32,3 @@
     justify-content: center;
   }
 </style>
-
-<footer class="Footer">
-  <div class="Footer-container">
-    <div class="Footer-content">
-      <div class="Footer-copy">Hecho con 💜 por 🐻 JbearP 🇨🇴</div>
-      <div class="Footer-svelte">
-        Full Power by svelte
-        <picture> <img src="svelte.png" alt="svelte" /> </picture>
-      </div>
-    </div>
-  </div>
-</footer>

@@ -6,10 +6,6 @@
   export let segment;
 </script>
 
-<style>
-
-</style>
-
 <Header />
 <Nav {segment} />
 
