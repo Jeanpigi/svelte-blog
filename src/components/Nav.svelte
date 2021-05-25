@@ -2,14 +2,55 @@
   export let segment;
 </script>
 
+<nav class="Nav-container">
+  <div class="Nav-content">
+    <div class="Nav-Social">
+      <ul>
+        <li>
+          <a aria-current={segment === undefined ? "page" : undefined} href=".">
+            Inicio
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={segment === "about" ? "page" : undefined}
+            href="about"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={segment === "histories" ? "page" : undefined}
+            href="histories"
+          >
+            Historias
+          </a>
+        </li>
+        <li>
+          <a aria-current={segment === "tech" ? "page" : undefined} href="tech">
+            Technología
+          </a>
+        </li>
+        <li>
+          <a
+            rel="prefetch"
+            aria-current={segment === "blog" ? "page" : undefined}
+            href="blog"
+          >
+            Blog
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <style>
-  .Nav {
+  .Nav-container {
     border-bottom: 1px solid rgb(167, 3, 153);
-    font-weight: 300;
     background-color: #fafbfc;
     color: #191a22;
-  }
-  .Nav-container {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -18,7 +59,7 @@
   .Nav-content {
     display: flex;
     justify-content: space-between;
-    padding-left: .1rem;
+    padding-left: 0.1rem;
   }
 
   ul {
@@ -66,50 +107,3 @@
     color: rgba(25, 26, 34, 1);
   }
 </style>
-
-<nav class="Nav">
-  <div class="Nav-container">
-    <div class="Nav-content">
-      <div class="Nav-Social">
-        <ul>
-          <li>
-            <a
-              aria-current={segment === undefined ? 'page' : undefined}
-              href=".">
-              Inicio
-            </a>
-          </li>
-          <li>
-            <a
-              aria-current={segment === 'about' ? 'page' : undefined}
-              href="about">
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              aria-current={segment === 'histories' ? 'page' : undefined}
-              href="histories">
-              Historias
-            </a>
-          </li>
-          <li>
-            <a
-              aria-current={segment === 'tech' ? 'page' : undefined}
-              href="tech">
-              Technología
-            </a>
-          </li>
-          <li>
-            <a
-              rel="prefetch"
-              aria-current={segment === 'blog' ? 'page' : undefined}
-              href="blog">
-              Blog
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>

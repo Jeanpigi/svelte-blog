@@ -1,3 +1,7 @@
+# Jbearp Blog
+
+Jbearp is a blog where you will find content about technology and web stories, created and developed by Jean Pierre Giovanni Arenas Ortiz with the aim of sharing knowledge and writing web series.
+
 # sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
@@ -16,7 +20,6 @@ npx degit "sveltejs/sapper-template#rollup" my-app
 # for webpack
 npx degit "sveltejs/sapper-template#webpack" my-app
 ```
-
 
 ### Using GitHub templates
 
@@ -109,3 +112,17 @@ npm install -D @sveltejs/svelte-virtual-list
 ## Bugs and feedback
 
 Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+
+# Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+# Authors
+
+- **Jean Pierre Giovanni Arenas Ortiz**
+
+# License
+
+[MIT](https://choosealicense.com/licenses/mit/)
