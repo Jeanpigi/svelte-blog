@@ -66,7 +66,6 @@
     display: grid;
     justify-content: center;
     margin: 0 2rem;
-    font-size: clamp(1.4rem, 2.5vw, 1.7rem);
   }
 
   .Post-title, .Post-date {
@@ -75,12 +74,9 @@
   .content {
     padding: 2rem 0;
     text-align: justify;
-    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+    font-size: clamp(1.5rem, 2.5vw, 1.8rem);
     font-weight: 300;
     line-height: 2.2rem;
   }
 
-  .content p {
-  padding: 1rem 0;
-}
 </style>

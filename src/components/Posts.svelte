@@ -31,21 +31,7 @@
 
 <style>
   .Post-content {
-    font-size: 1.6rem;
-    font-weight: 300;
     text-align: justify;
-  }
-  .Post-title {
-    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
-    text-align: center;
-  }
-
-  .Post-date {
-    color: #333;
-    font-size: clamp(1rem, 2.5vw, 1.3rem);
-    font-weight: 300;
-    display: flex;
-    flex-direction: column;
   }
   .Post-title a {
     color: #22215b;

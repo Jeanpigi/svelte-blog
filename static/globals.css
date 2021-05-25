@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,8 +8,32 @@
 
 html {
   font-size: 62.5%;
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Archivo Narrow", sans-serif;
 }
 
+.Posts {
+  display: grid;
+  grid-gap: 8rem;
+  margin: 1rem;
+}
+.Post-content {
+  font-weight: 300;
+  font-family: "Tinos", serif;
+}
 
+.Post-title {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  text-align: center;
+}
+
+.Post-date {
+  color: #333;
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+}
+
+.Posts .content p {
+  padding: 1rem 0;
+}

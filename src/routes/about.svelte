@@ -61,16 +61,18 @@
 
   .About > h1 {
     text-align: center;
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem);
   }
 
   .About-parrafo {
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 2.5vw, 1.8rem);
     display: grid;
     flex-direction: column;
     gap: 3rem;
     font-weight: 200;
     line-height: 2.2rem;
+    font-family: 'Tinos', serif;
   }
 
   .About-content picture {
@@ -84,7 +86,7 @@
   }
 
   .About-span {
-    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+    font-size: clamp(1.5rem, 2.5vw, 1.7rem);
     padding: 2rem 0;
     font-weight: 200;
   }

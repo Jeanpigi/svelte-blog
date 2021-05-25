@@ -26,22 +26,19 @@
 </div>
 
 <style>
-
+.Newsletter {
+  font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+}
   .Newsletter-head h4 {
-    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
     text-align: center;
   }
   .Newsletter-head p {
     font-weight: 300;
     color: #333;
-    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
     margin: 1rem 0;
     text-align: justify;
   }
 
-  .Newsletter-form {
-    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
-  }
 
   .Newsletter-form form {
     display: flex;
@@ -99,7 +96,6 @@
     text-align: center;
 }
   .Newsletter-not-Spam a {
-    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
     text-decoration: none;
     color: #343540;
   }
