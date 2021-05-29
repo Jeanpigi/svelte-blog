@@ -17,7 +17,7 @@
       </h2>
       <div class="Post-date">
         <time datatime={post.createdAt}>
-          📆 {formatIsoTime(post.createdAt)}
+          {formatIsoTime(post.createdAt)}
         </time>
         <span>{readingTime(post.html)}</span>
       </div>
@@ -38,6 +38,10 @@
     text-decoration: none;
   }
 
+  .Post-title a:visited {
+    color: rgb(167, 3, 153);
+  }
+
   .Post-desc p {
     color: #333;
     font-size: clamp(1.3rem, 2.5vw, 1.6rem);
@@ -46,6 +50,10 @@
   .Post-date span {
     font-size: clamp(1.3rem, 2.5vw, 1.6rem);
     font-weight: 700;
+  }
+
+  .Post-date time::before {
+    content: " 📆  ";
   }
 
   @media only screen and (min-width: 1023px) {

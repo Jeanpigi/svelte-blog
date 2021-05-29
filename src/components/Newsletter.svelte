@@ -26,9 +26,9 @@
 </div>
 
 <style>
-.Newsletter {
-  font-size: clamp(1.3rem, 2.5vw, 1.6rem);
-}
+  .Newsletter {
+    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+  }
   .Newsletter-head h4 {
     text-align: center;
   }
@@ -38,7 +38,6 @@
     margin: 1rem 0;
     text-align: justify;
   }
-
 
   .Newsletter-form form {
     display: flex;
@@ -63,7 +62,6 @@
     padding: 4px 12px;
     width: 100%;
   }
-  
 
   .btn {
     box-shadow: inset 0px 1px 0px 0px #343540;
@@ -91,12 +89,16 @@
     top: 1px;
   }
 
-.Newsletter-not-Spam {
-  margin-top: 1rem;
+  .Newsletter-not-Spam {
+    margin-top: 1rem;
     text-align: center;
-}
+  }
   .Newsletter-not-Spam a {
     text-decoration: none;
     color: #343540;
+  }
+
+  .Newsletter-not-Spam a:visited {
+    color: rgb(167, 3, 153);
   }
 </style>

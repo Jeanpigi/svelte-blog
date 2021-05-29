@@ -26,6 +26,13 @@
   text-align: center;
 }
 
+a:link {
+  color: #22215b;
+}
+
+a:visited {
+  color: rgb(167, 3, 153);
+}
 </style>
 
 <svelte:head>

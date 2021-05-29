@@ -106,4 +106,8 @@
   a:hover {
     color: rgba(25, 26, 34, 1);
   }
+
+  a:visited {
+     color: rgb(167, 3, 153);
+  }
 </style>

@@ -1,7 +1,7 @@
 <footer class="Footer">
   <div class="Footer-container">
     <div class="Footer-content">
-      <div class="Footer-copy">Hecho con 💜 por 🐻 JbearP 🇨🇴</div>
+      <div class="Footer-copy"> Hecho con 💜 por 🐻 JbearP </div>
       <div class="Footer-svelte">
         Full Power by svelte
         <picture> <img src="svelte.png" alt="svelte" /> </picture>
@@ -25,9 +25,12 @@
     font-size: clamp(1.5rem, 2.5vw, 2rem);
     font-family: 'Great Vibes', cursive;
   }
-
+  .Footer-copy::after {
+    content: " 🇨🇴  ";
+  }
   .Footer-svelte {
     display: flex;
     justify-content: center;
+    gap: 1rem;
   }
 </style>

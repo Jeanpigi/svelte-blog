@@ -44,7 +44,7 @@
       <h2>{post.title}</h2>
     </div>
     <div class="Post-date">
-      <time datetime={post.createdAt}> 📆 {formatIsoTime(post.createdAt)}</time>
+      <time datetime={post.createdAt}> {formatIsoTime(post.createdAt)}</time>
       <span>{readingTime(post.html)}</span>
     </div>
     <div class="content">
@@ -70,6 +70,10 @@
 
   .Post-title, .Post-date {
     text-align: center;
+  }
+
+  .Post-date time::before {
+    content: " 📆  ";
   }
   .content {
     padding: 2rem 0;

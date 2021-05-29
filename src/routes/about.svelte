@@ -59,7 +59,7 @@
     align-items: center;
   }
 
-  .About > h1 {
+  .About h1 {
     text-align: center;
     font-size: clamp(1.5rem, 2.5vw, 2.2rem);
   }
@@ -75,14 +75,22 @@
     font-family: 'Tinos', serif;
   }
 
-  .About-content picture {
-    margin: auto;
+  .About-parrafo strong:hover{
+    color: rgb(167, 3, 153);
   }
 
+  .About-content picture {
+    margin: auto;
+    transform-origin: left top;
+  }
+
+  .About-content picture:hover {
+    transform: rotate(20deg);
+  }
   .About-content img {
     width: 150px;
-    border-radius: 50%;
     margin: 1rem;
+    border-radius: 50%;
   }
 
   .About-span {
@@ -91,8 +99,13 @@
     font-weight: 200;
   }
 
-  .About-span  a {
+  .About-span  a:link {
     font-size: clamp(1.4rem, 2.5vw, 2.3rem);
+    color: #191a22;
+  }
+
+  .About-span a:visited {
+    color: rgb(167, 3, 153);
   }
 
   .About-content > code {
@@ -103,5 +116,9 @@
     background-color: #f0f0f0;
     padding: 0.2rem 0.4rem;
     border-radius: 2px;
+  }
+
+  .About-content code::after {
+    content: " 🖥️  ";
   }
 </style>
