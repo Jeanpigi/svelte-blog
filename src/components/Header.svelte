@@ -34,7 +34,7 @@
       </li>
       <li>
         <a
-          href="https://www.facebook.com/JePiGi/"
+          href="https://www.facebook.com/Bitpierre"
           target="_blank"
           rel="noreferrer"
           on:click={analyticsTracking("facebook")}

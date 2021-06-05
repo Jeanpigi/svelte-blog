@@ -2,7 +2,7 @@
   export let segment;
 </script>
 
-<nav class="Nav-container">
+<nav class="Nav-container pulser_effect">
   <div class="Nav-content">
     <div class="Nav-Social">
       <ul>
@@ -54,6 +54,8 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+    box-shadow: 0 4px 16px rgba(#000000,0.25);
   }
 
   .Nav-content {
@@ -108,6 +110,15 @@
   }
 
   a:visited {
-     color: rgb(167, 3, 153);
+    color: rgb(167, 3, 153);
+  }
+
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(#792CE2, 1); }
+    100% { box-shadow: 0 0 0 40px rgba(#792CE2, 0); }
+  }
+
+  .pulser_effect {
+    animation: pulse infinite 1s;
   }
 </style>

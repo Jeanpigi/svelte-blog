@@ -9,7 +9,6 @@
 html {
   font-size: 62.5%;
   font-family: "Archivo Narrow", sans-serif;
-  counter-reset: heading;
 }
 
 .Posts {
@@ -39,7 +38,3 @@ html {
   padding: 1rem 0;
 }
 
-.Posts .content ol li::before {
-  content: "Part " counter(heading, upper-roman) ": ";
-  counter-increment: heading;
-}

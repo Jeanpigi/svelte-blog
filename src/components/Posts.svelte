@@ -36,10 +36,11 @@
   .Post-title a {
     color: #22215b;
     text-decoration: none;
+    transition: box-shadow 0.25s;
   }
 
-  .Post-title a:visited {
-    color: rgb(167, 3, 153);
+  .Post-title a:focus {
+    box-shadow: 0 0 0 7px rgba(#9818EF, 0.56);
   }
 
   .Post-desc p {
