@@ -3,8 +3,14 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://blog.jbearp.com</loc>
-        <lastmod>Sat, 05 Jun 2021 15:45:14 GMT</lastmod>
+        <lastmod>Mon, 11 Oct 2021 15:58:01 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/como-instalar-anaconda-en-macbook</loc>
+        <lastmod>Thu, 16 Sep 2021 14:29:56 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>
@@ -88,12 +94,6 @@
     <url>
         <loc>https://blog.jbearp.com/blog/usando-scrapy</loc>
         <lastmod>Thu, 10 Sep 2020 01:40:17 GMT</lastmod>
-        <priority>0.80</priority>
-    </url>
-    
-    <url>
-        <loc>https://blog.jbearp.com/blog/chapter-one</loc>
-        <lastmod>Thu, 27 Aug 2020 17:26:38 GMT</lastmod>
         <priority>0.80</priority>
     </url>
     
