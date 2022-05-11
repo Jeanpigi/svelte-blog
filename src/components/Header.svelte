@@ -24,7 +24,7 @@
       </li>
       <li>
         <a
-          href="https://www.instagram.com/jean_pierre_giovanni/"
+          href="https://www.instagram.com/jean_pierre_gio/"
           target="_blank"
           rel="noreferrer"
           on:click={analyticsTracking("instagram")}
@@ -34,7 +34,7 @@
       </li>
       <li>
         <a
-          href="https://www.facebook.com/Bitpierre"
+          href="https://www.facebook.com/Jpgaobot/"
           target="_blank"
           rel="noreferrer"
           on:click={analyticsTracking("facebook")}

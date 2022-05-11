@@ -24,7 +24,10 @@
     <picture class="About-content-picture">
       <img src="https://i.ibb.co/kxzzXdt/imagen.jpg" alt="imagen" border="0" />
     </picture>
-    <code> Freelancer </code>
+    <div class="content"> 
+      <span class="border">Freelancer</span> 
+      <span class="wave">Freelancer</span>  
+    </div>
   </div>
 
   <div class="About-parrafo">
@@ -55,6 +58,10 @@
     --crl-bg: hsl(321, 22%, 82%);
   }
   .About {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
     text-align: justify;
   }
 
@@ -70,7 +77,7 @@
   }
 
   .About-parrafo {
-    margin: 1rem;
+    margin-top: 2rem;
     font-size: clamp(1.5rem, 2.5vw, 1.8rem);
     display: grid;
     flex-direction: column;
@@ -156,18 +163,65 @@
   .About-span-button:focus::after {
     opacity: 1;
   }
-  .About-content > code {
-    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-    text-align: center;
-    font-family: menlo, inconsolata, monospace;
-    color: #555;
-    background-color: #f0f0f0;
-    padding: 0.2rem 0.4rem;
-    border-radius: 2px;
-    box-shadow: 0 50px 70px rgba(#624F7D,0.12);
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50px;
   }
 
-  .About-content code::after {
+  .content span::after {
     content: " 🖥️  ";
   }
+
+.content span {
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  position: absolute;
+  letter-spacing: 2pt;
+}
+
+.border {
+  color: #F2F2F2;
+  text-shadow: 
+    -1px -1px 0 #764AF1,
+    1px -1px 0 #764AF1,
+    1px 1px 0 #764AF1,
+    -1px 1px 0 #764AF1;
+}
+
+.wave {
+  color: #9772FB;
+  animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    clip-path: polygon(
+      0% 47%,
+      10% 48%,
+      33% 54%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
 </style>

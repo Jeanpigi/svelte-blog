@@ -64,10 +64,10 @@
   }
 
   .btn {
-    box-shadow: inset 0px 1px 0px 0px #343540;
-    background: linear-gradient(to bottom, #7e5c87 5%, #343540 100%);
+    /* box-shadow: inset 0px 1px 0px 0px #343540;
+    background: linear-gradient(to bottom, #7e5c87 5%, #343540 100%); */
     background-color: #7e5c87;
-    border-radius: 6px;
+    border-radius: 50px;
     display: inline-block;
     cursor: pointer;
     color: #fff;

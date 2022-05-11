@@ -3,8 +3,14 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://blog.jbearp.com</loc>
-        <lastmod>Mon, 11 Oct 2021 15:58:01 GMT</lastmod>
+        <lastmod>Wed, 11 May 2022 19:33:41 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/aprende-a-utilizar-anaconda-en-sistema-unix</loc>
+        <lastmod>Wed, 22 Sep 2021 15:48:57 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>
@@ -88,12 +94,6 @@
     <url>
         <loc>https://blog.jbearp.com/blog/live-streaming</loc>
         <lastmod>Thu, 10 Sep 2020 16:37:49 GMT</lastmod>
-        <priority>0.80</priority>
-    </url>
-    
-    <url>
-        <loc>https://blog.jbearp.com/blog/usando-scrapy</loc>
-        <lastmod>Thu, 10 Sep 2020 01:40:17 GMT</lastmod>
         <priority>0.80</priority>
     </url>
     

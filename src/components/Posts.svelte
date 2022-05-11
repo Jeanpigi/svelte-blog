@@ -31,7 +31,10 @@
 
 <style>
   .Post-content {
-    text-align: justify;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
   }
   .Post-title a {
     color: #22215b;
@@ -43,12 +46,20 @@
     box-shadow: 0 0 0 7px rgba(#9818EF, 0.56);
   }
 
-  .Post-desc p {
-    color: #333;
-    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+  .Post-desc {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
   }
 
-  .Post-date span {
+  .Post-desc > p {
+    color: #333;
+    font-size: clamp(1.7rem, 2.5vw, 2rem);
+  }
+
+  .Post-date > span {
     font-size: clamp(1.3rem, 2.5vw, 1.6rem);
     font-weight: 700;
   }
@@ -57,9 +68,4 @@
     content: " 📆  ";
   }
 
-  @media only screen and (min-width: 1023px) {
-    .Post-desc {
-      margin: 0 1.8rem;
-    }
-  }
 </style>
