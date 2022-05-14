@@ -1,14 +1,15 @@
 <script>
   export let segment;
+
+  let active = false;
+
 </script>
 
 <nav class="Nav-container pulser_effect">
-  <div class="Nav-content">
-    <div class="Nav-Social">
       <ul>
         <li>
           <a aria-current={segment === undefined ? "page" : undefined} href=".">
-            Inicio
+            <span>Inicio</span>
           </a>
         </li>
         <li>
@@ -16,34 +17,33 @@
             aria-current={segment === "about" ? "page" : undefined}
             href="about"
           >
-            About
+           <span>About</span> 
           </a>
         </li>
-        <li>
+        <li class="list">
           <a
             aria-current={segment === "histories" ? "page" : undefined}
             href="histories"
           >
-            Historias
+          <span>Historias</span> 
           </a>
         </li>
-        <li>
+        <li class="list">
           <a aria-current={segment === "tech" ? "page" : undefined} href="tech">
-            Technología
+            <span>Technología</span>
           </a>
         </li>
-        <li>
+        <li class="list">
           <a
             rel="prefetch"
             aria-current={segment === "blog" ? "page" : undefined}
             href="blog"
           >
-            Blog
+           <span>Blog</span> 
           </a>
         </li>
+        <div class="indicator"></div>
       </ul>
-    </div>
-  </div>
 </nav>
 
 <style>
@@ -54,30 +54,73 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    box-shadow: 0 4px 16px rgba(#000000,0.25);
+    position: relative;
+    width: 100vw;
+    height: 60px;
   }
 
-  .Nav-content {
+  .Nav-container ul {
     display: flex;
-    justify-content: space-between;
-    padding-left: 0.1rem;
+    width: 350px;
   }
 
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  ul::after {
+  /* ul::after {
     content: "";
     display: block;
     clear: both;
+  } */
+
+  .Nav-container ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 60px;
+    z-index: 2;
   }
 
-  li {
+  .Nav-container ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    
+  }
+
+  .Nav-container ul li a span {
+    font-size: 1.4rem;
+    font-weight: 300;
+    position: relative;
     display: block;
-    float: left;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+  }
+
+  .Nav-container ul li.active a span {
+    background: #24292e;
+    color: #fff;
+    transform: translateY(-27px);
+  }
+
+  .Nav-container ul li a span::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #24292e;
+    filter: blur(5px);
+    opacity: 0;
+  }
+
+  .Nav-container ul li.active a span::before {
+    opacity: 0.5;
   }
 
   [aria-current] {

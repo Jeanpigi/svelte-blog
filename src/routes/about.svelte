@@ -48,6 +48,25 @@
       <i class="fas fa-globe" />
     </a>
   </div>
+
+  <div class="sharingan-container">
+    <div class="sharingan">
+      <div class="pupil"></div>
+      <div class="iris"></div>
+      <div class="tomoes">
+        <div class="tomoe-area">
+          <div class="tomoe"></div>
+        </div>
+        <div class="tomoe-area">
+          <div class="tomoe"></div>
+        </div>
+        <div class="tomoe-area">
+          <div class="tomoe"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   
 </div>
 
@@ -56,6 +75,7 @@
   :root {
     --clr-neon: hsl(317, 33%, 17%);
     --crl-bg: hsl(321, 22%, 82%);
+    --tomoe-size: calc(400px / 6.5);
   }
   .About {
     display: grid;
@@ -224,4 +244,108 @@
     );
   }
 }
+
+.sharingan-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.sharingan {
+  width: 400px;
+  height: 400px;
+  border: calc(400px/30) solid #000;
+  border-radius: 50%;
+  background: hsl(0, 100%, 36%);
+  box-shadow: 0 0 100px 10px #000 inset;
+  position: relative;
+}
+
+.pupil {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  background: #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 100px 10px #000;
+}
+
+.iris {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  border-radius: 50%;
+
+}
+
+.tomoes {
+  height: 100%;
+  width: 100%;
+  animation: rotateIris 1.4s infinite;
+}
+
+.tomoe-area {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.tomoe {
+  width: calc(400px / 6.5);
+  height: calc(400px / 6.5);
+  position: absolute;
+  background-color: #000;
+  border-radius: 50%;
+  left: 50%;
+  top: -16.6%;
+  transform: translate(-50%);
+}
+
+.tomoe::before {
+  content: "";
+  position: absolute;
+  top: -30.3%;
+  left: 3.1%;
+  width: calc(var(--tomoe-size) * 1.51);
+  height: calc(var(--tomoe-size) * 1.69);
+  border-radius: 50%;
+  border-top: calc(var(--tomoe-size) / 2.6) solid #000;
+  border-left: calc(var(--tomoe-size) / 9.7) solid transparent;
+  transform: rotate(-35deg);
+}
+
+.tomoe-area:first-child {
+  transform: translate(-50%, -50%);
+
+}
+
+.tomoe-area:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(120deg);
+}
+
+.tomoe-area:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(-120deg);
+}
+
+@keyframes rotateIris {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 </style>
