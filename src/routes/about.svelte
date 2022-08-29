@@ -78,6 +78,7 @@
     --tomoe-size: calc(400px / 6.5);
   }
   .About {
+    margin: 1rem;
     display: grid;
     justify-content: center;
     align-items: center;

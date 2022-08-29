@@ -3,8 +3,14 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://blog.jbearp.com</loc>
-        <lastmod>Sat, 14 May 2022 17:34:17 GMT</lastmod>
+        <lastmod>Mon, 29 Aug 2022 04:42:44 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://blog.jbearp.com/blog/what-is-docker</loc>
+        <lastmod>Mon, 29 Aug 2022 04:33:47 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>
@@ -88,12 +94,6 @@
     <url>
         <loc>https://blog.jbearp.com/blog/terminal</loc>
         <lastmod>Wed, 16 Sep 2020 01:16:12 GMT</lastmod>
-        <priority>0.80</priority>
-    </url>
-    
-    <url>
-        <loc>https://blog.jbearp.com/blog/live-streaming</loc>
-        <lastmod>Thu, 10 Sep 2020 16:37:49 GMT</lastmod>
         <priority>0.80</priority>
     </url>
     
